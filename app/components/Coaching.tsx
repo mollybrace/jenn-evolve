@@ -35,7 +35,7 @@ const Coaching = () => {
             />
             </div>
             <h2 className='font-bold'>FAQs</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus necessitatibus? Ipsa placeat incidunt optio omnis!</p>
             <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
         </div>
 
