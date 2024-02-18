@@ -20,7 +20,7 @@ const SoundHealing = () => {
             </div>
             
             <h2 className='font-bold'>About Sound Healing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis! </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis! </p>
             <a href="/about"><p className='hover:cursor underline'>Find out more</p></a>
         </div>
 
@@ -35,7 +35,7 @@ const SoundHealing = () => {
             />
             </div>
             <h2 className='font-bold'>FAQ's</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus necessitatibus? Ipsa placeat incidunt optio omnis!</p>
             <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
         </div>
 
@@ -50,7 +50,7 @@ const SoundHealing = () => {
                 />
                 </div>
                 <h2 className='font-bold'>Book Your Sound Healing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ccusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
                 <a href="/booking"><p className='hover:cursor underline'>Book Your Session</p></a>
         </div>
         </div>

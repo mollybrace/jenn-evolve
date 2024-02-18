@@ -20,7 +20,7 @@ const Coaching = () => {
             </div>
             
             <h2 className='font-bold'>About Life Coaching</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis! </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing eli Accusamus necessitatibus? Ipsa placeat incidunt optio omnis! </p>
             <a href="/about"><p className='hover:cursor underline'>Find out more</p></a>
         </div>
 
@@ -34,8 +34,8 @@ const Coaching = () => {
                 className='rounded-100'
             />
             </div>
-            <h2 className='font-bold'>FAQ's</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+            <h2 className='font-bold'>FAQs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
             <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
         </div>
 
@@ -50,7 +50,7 @@ const Coaching = () => {
                 />
                 </div>
                 <h2 className='font-bold'>Book Your Life Coaching</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus necessitatibus? Ipsa placeat incidunt optio omnis!</p>
                 <a href="/booking"><p className='hover:cursor underline'>Book Your Session</p></a>
         </div>
         </div>
