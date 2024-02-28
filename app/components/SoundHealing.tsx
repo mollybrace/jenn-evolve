@@ -5,8 +5,6 @@ const SoundHealing = () => {
   return (
 <section> 
     <div className="max-w-6xl relative px-5 mx-auto mt-10 text-center md:px-1 lg:max-w-full text-khaki-green">
-        <h1>Sound Healing</h1>
-
     <div className="flex flex-col mt-0 md:flex-row md:space-x-6 ">
            <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">
             <div className='image-container'>
@@ -19,7 +17,7 @@ const SoundHealing = () => {
             />
             </div>
             
-            <h2 className='font-bold'>About Sound Healing</h2>
+            <h2 className='font-bold'>Sound Healing</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis! </p>
             <a href="/about"><p className='hover:cursor underline'>Find out more</p></a>
         </div>
@@ -34,9 +32,9 @@ const SoundHealing = () => {
                 className='rounded-100'
             />
             </div>
-            <h2 className='font-bold'>FAQs</h2>
+            <h2 className='font-bold'>Life Coaching</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus necessitatibus? Ipsa placeat incidunt optio omnis!</p>
-            <a href="/contact"><p className='underline hover:cursor'>Contact me for more information</p></a>
+            <a href="/contact"><p className='underline hover:cursor'>Find out more</p></a>
         </div>
 
         <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">
@@ -49,9 +47,9 @@ const SoundHealing = () => {
                     className='rounded-100'
                 />
                 </div>
-                <h2 className='font-bold'>Book Your Sound Healing</h2>
+                <h2 className='font-bold'>About me/FAQ's? OR Booking </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ccusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
-                <a href="/booking"><p className='hover:cursor underline'>Book Your Session</p></a>
+                <a href="/booking"><p className='hover:cursor underline'>Book here</p></a>
         </div>
         </div>
     </div>

@@ -22,7 +22,7 @@ const Nav = () => {
     <nav className='top-0'>
       <div>
           <button
-              className='inline-flex items-center p-2 rounded-md text-white'
+              className='inline-flex flex-row items-center p-2 rounded-md text-white'
               onClick={toggleNavbar}
           >
 

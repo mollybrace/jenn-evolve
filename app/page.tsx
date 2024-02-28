@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Testimonials from "./components/Testimonials";
 import SoundHealing from "./components/SoundHealing";
 import Coaching from "./components/Coaching";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -16,10 +17,14 @@ export default function Home() {
         <SoundHealing />
       </section>
     
-      <section>
-        <Coaching />
+      <section >
+        <About />
       </section>
     
+      <section>
+        <Testimonials />
+      </section>
+
     </div>
   );
 }
