@@ -4,8 +4,8 @@ import React from 'react'
 const SoundHealing = () => {
   return (
 <section> 
-    <div className="max-w-6xl relative px-5 mx-auto mt-10 text-center md:px-1 lg:max-w-full text-khaki-green">
-    <div className="flex flex-col mt-0 md:flex-row md:space-x-6 ">
+    <div className="max-w-5xl relative px-2 mx-auto mt-10 text-center md:px-0 lg:max-w-full text-khaki-green">
+    <div className="flex flex-col mt-0 md:flex-row md:space-x-2 ">
            <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">
             <div className='image-container'>
             <Image 
@@ -19,7 +19,7 @@ const SoundHealing = () => {
             
             <h2 className='font-bold'>Sound Healing</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus, necessitatibus? Ipsa placeat incidunt optio omnis! </p>
-            <a href="/about"><p className='hover:cursor underline'>Find out more</p></a>
+            <a href="/soundhealing"><p className='hover:cursor underline'>Find out more</p></a>
         </div>
 
         <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">
@@ -34,7 +34,7 @@ const SoundHealing = () => {
             </div>
             <h2 className='font-bold'>Life Coaching</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Accusamus necessitatibus? Ipsa placeat incidunt optio omnis!</p>
-            <a href="/contact"><p className='underline hover:cursor'>Find out more</p></a>
+            <a href="/coaching"><p className='underline hover:cursor'>Find out more</p></a>
         </div>
 
         <div className="flex flex-col items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3">
@@ -47,8 +47,8 @@ const SoundHealing = () => {
                     className='rounded-100'
                 />
                 </div>
-                <h2 className='font-bold'>About me/FAQ's? OR Booking </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ccusamus, necessitatibus? Ipsa placeat incidunt optio omnis!</p>
+                <h2 className='font-bold'>Booking </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ccusamus, necessitatibus? Ipsa placeat incidunt optio omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore beatae sequi est! Doloremque non neque molestias maxime, fuga nostrum autem voluptatum cum dolorum dignissimos! Tempore excepturi quam iusto aspernatur expedita?</p>
                 <a href="/booking"><p className='hover:cursor underline'>Book here</p></a>
         </div>
         </div>

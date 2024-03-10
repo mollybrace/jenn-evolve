@@ -2,8 +2,19 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import { Montserrat } from "next/font/google";
+
 
 const inter = Inter({ subsets: ["latin"] });
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['100', '400', '200', '300', '500'],
+  style: ['normal', 'italic'],
+  variable: '--font-'
+ })
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,12 +28,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <Hero />
-      <main>
-        {children}
-      </main>
+      <div className='overflow-hidden'>
+        <body className={montserrat.className}>
+        <Hero />
+          <main className="overflow-hidden">
+            {children}
+          </main>
+        <Footer />
       </body>
+      </div>
     </html>
   );
 }
