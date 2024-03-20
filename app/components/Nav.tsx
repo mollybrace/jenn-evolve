@@ -19,7 +19,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className='top-0'>
+    <nav className='top-0 sticky'>
       <div>
           <button
               className='inline-flex flex-row items-center p-2 rounded-md text-white'

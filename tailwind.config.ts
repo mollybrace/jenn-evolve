@@ -13,6 +13,8 @@ const config: Config = {
       },
       colors: {
         "khaki-green": "#ADA491",
+        "khaki-beige": "#CBB6A1",
+        "khaki-cream" : "#E5DBD6"
       },
     },
   },

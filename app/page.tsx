@@ -2,6 +2,8 @@ import Image from "next/image";
 import Testimonials from "./components/Testimonials";
 import SoundHealing from "./components/SoundHealing";
 import About from "./components/About";
+import Form from "./components/Form";
+import Slideshow from "./components/Slideshow";
 
 export default function Home() {
   return (
@@ -20,8 +22,10 @@ export default function Home() {
       </section>
     
       <section>
-        <Testimonials />
+        <Slideshow />
       </section>
+
+     
 
     </div>
   );

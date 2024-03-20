@@ -1,8 +1,18 @@
 import React from 'react'
+import Benefits from './components/Benefits'
 
 const SoundHealing = () => {
   return (
-    <div> SOUND HEALING: about, FAQs, booking page</div>
+    <div> 
+      <section>
+        <Benefits />
+      </section>
+
+
+
+    </div>
+
+    
   )
 }
 
