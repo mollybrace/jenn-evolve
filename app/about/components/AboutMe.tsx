@@ -3,31 +3,26 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='p-10 max-w-full'>
-    <div className="flex flex-col items-center  space-y-10 md:flex-row justify-center md:justify-between">
-      <div className='flex flex-col items-center md:w-1/2'>
-      <div className='image-container'>
-        <Image
-          src="/about.jpg"
-          alt="profile"
-          height={600}
-          width={600}
-          className='rounded-100'
-        />
-      </div>
+    <div className='flex flex-col md:flex-row-reverse pt-10'>
+        <div className='lg:basis-4/6 md:basis-2/4'>
+          <p className='font-bold pb-2'>ABOUT ME</p>
 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur hic reiciendis eius, maiores non rem in ipsa veritatis exercitationem dolore porro modi tempora amet. Molestiae iusto consequatur vero itaque!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis voluptatibus cupiditate ea architecto inventore. Harum, nulla in excepturi sequi voluptatem ullam nam ratione ea quo, facilis praesentium porro at!
+          </p>
+         
+    
+        </div>
+        <div className='md:basis-2/4 lg:basis-2/6'>
+        <Image 
+          src="/middle.png"
+            width={500}
+            height={500}
+            alt="jenny"
+            className='border'
+            />
+        </div>
       </div>
-
-      <div className='flex flex-col items-center max-w-full md:w-1/2'>
-        <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores omnis vitae neque amet vero blanditiis quo, pariatur enim provident unde dicta cum cumque commodi officiis minima tenetur molestias sequi.. </p>
-      </div>
-    </div>   
-
-    <div>
-      <h1>My purpose</h1>
-    </div>
-</div>
-     
   )
 }
 

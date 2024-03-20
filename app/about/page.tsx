@@ -1,10 +1,17 @@
 import React from 'react'
+import AboutJennEvolve from './components/AboutJennEvolve'
 import AboutMe from './components/AboutMe'
+
 
 const About = () => {
   return (
     <div>
-      <AboutMe />
+      <section>
+        <AboutJennEvolve />
+      </section>
+      <section >
+        <AboutMe />
+      </section>
     </div>
   )
 }
