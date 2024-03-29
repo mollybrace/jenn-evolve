@@ -4,8 +4,8 @@ import React, { useEffect, useState } from 'react'
 
 const slides = [
   {statement: "Calm your mind", image: "/left.png", alt: "left"},
-  {statement: "Have a great time", image: "/middle.png", alt: "right"},
-  {statement: "Grow wings", image: "/middle.png", alt: "middle"},
+  {statement: "Have a great time", image: "/right.png", alt: "right"},
+  {statement: "Grow wings", image: "/left.png", alt: "middle"},
   {statement: "See the future", image: "/middle.png", alt: "left2"},
   {statement: "Be young and wild and freee", image: "/right.png", alt: "left2"},
 ]

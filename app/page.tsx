@@ -3,7 +3,8 @@ import Testimonials from "./components/Testimonials";
 import SoundHealing from "./components/Info";
 import About from "./components/About";
 import Form from "./components/Form";
-import Slideshow from "./components/Slideshow";
+import Reviews from "./components/Reviews";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -22,8 +23,14 @@ export default function Home() {
       </section>
     
       <section>
-        <Slideshow />
+        <Reviews />
       </section>
+
+      <section >
+        <ContactForm />
+      </section>
+
+
 
      
 

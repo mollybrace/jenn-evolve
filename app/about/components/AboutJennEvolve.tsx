@@ -4,14 +4,9 @@ import React from 'react'
 const AboutMe = () => {
   return (
    <div>
-      <div className='pl-2 pt-5'>
-       <p className='text-xl'>A little bit about</p>
-        <p className='text-5xl pb-10 pl-6'>Jenn Evolve</p>
-      </div>
-
       <div className='flex flex-col md:flex-row'>
         <div className='lg:basis-4/6 md:basis-2/4'>
-          <p className='font-bold pb-2'>MISSION & VISION</p>
+          <p className='font-bold pb-2 pt-4'>MISSION & VALUES</p>
          
     <p className='pb-4'>
       At Jenn.Evolve, we know that as children we were taught to be kind to others. It comes easy to us. We are naturals at this. We have empathy for others, yet not for ourselves.
@@ -32,7 +27,7 @@ const AboutMe = () => {
     If everyone were to live their lives from a place of compassion for self and others, what a better world we would live in today!
     </p>
         </div>
-        <div className='md:basis-2/4 lg:basis-2/6'>
+        <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
         <Image 
           src="/middle.png"
             width={500}

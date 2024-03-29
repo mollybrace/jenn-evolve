@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import React from 'react'
 
-const Slideshow = () => {
+const Reviews = () => {
 
     const feedback = [
         {
@@ -99,4 +99,4 @@ const Slideshow = () => {
   )
 }
 
-export default Slideshow
+export default Reviews
