@@ -5,6 +5,7 @@ import About from "./components/About";
 import Form from "./components/Form";
 import Reviews from "./components/Reviews";
 import ContactForm from "./components/ContactForm";
+import CallToAction from "./components/CallToAction";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       </section>
 
       <section >
-        <ContactForm />
+        <CallToAction />
       </section>
 
 

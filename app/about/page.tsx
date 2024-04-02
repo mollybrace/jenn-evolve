@@ -3,6 +3,7 @@ import AboutJennEvolve from './components/AboutJennEvolve'
 import AboutMe from './components/AboutMe'
 import ElevatorPitch from './components/ElevatorPitch'
 import Title from './components/Title'
+import CallToAction from '../components/CallToAction'
 
 
 const About = () => {
@@ -19,6 +20,10 @@ const About = () => {
       </section>
       <section >
         <AboutMe />
+      </section>
+
+      <section>
+        <CallToAction />
       </section>
 
     </div>

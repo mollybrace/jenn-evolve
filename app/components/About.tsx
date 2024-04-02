@@ -8,7 +8,7 @@ const About = () => {
         <h2 className='items-center flex justify-center pb-3 text-5xl pt-6'>Who am I?</h2>
 
         <div className='flex flex-col justify-center md:flex-row   items-center'>
-            <div className='md:w-1/3 border flex justify-center items-center rounded-lg'>
+            <div className='md:w-1/3  flex justify-center items-center'>
                 <Image 
                     src="/about.jpg"
                     alt="profile photo"

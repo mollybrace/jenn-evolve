@@ -3,11 +3,15 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 const slides = [
-  {statement: "Calm your mind", image: "/left.png", alt: "left"},
-  {statement: "Have a great time", image: "/right.png", alt: "right"},
-  {statement: "Grow wings", image: "/left.png", alt: "middle"},
-  {statement: "See the future", image: "/middle.png", alt: "left2"},
-  {statement: "Be young and wild and freee", image: "/right.png", alt: "left2"},
+  {statement: "Manage Stress", image: "/left.png", alt: "left"},
+  {statement: "Improve Lleep", image: "/right.png", alt: "right"},
+  {statement: "Increase Mindfulness", image: "/left.png", alt: "middle"},
+  {statement: "Boost Immune Function", image: "/middle.png", alt: "left2"},
+  {statement: "Enhance Energy", image: "/right.png", alt: "left2"},
+  {statement: "Spirital Connection", image: "/right.png", alt: "left2"},
+  {statement: "Improved Concentration and Focus", image: "/right.png", alt: "left2"},
+  {statement: "Promotion of Physical Healing", image: "/right.png", alt: "left2"},
+  {statement: "Enhance Energy", image: "/right.png", alt: "left2"},
 ]
 
 const Benefits = () => {

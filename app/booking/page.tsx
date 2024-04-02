@@ -1,8 +1,13 @@
 import React from 'react'
+import soundhealingSessions from './components/soundhealingSessions'
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <div>
+      <section>
+        <soundhealingSessions />
+      </section>
+      </div>
   )
 }
 
