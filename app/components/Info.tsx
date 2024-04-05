@@ -4,10 +4,10 @@ import React from 'react'
 const SoundHealing = () => {
   return (
 <section> 
-    <div className="relative px-2 mx-auto mt-10 text-center md:px-0 lg:max-w-full text-khaki-green bg-opacity-50 pb-10">
+    <div className="relative px-2 mx-auto mt-10 text-center md:px-0  text-khaki-green pb-10 lg:mx-10 ">
 
-    <div className="flex flex-col mt-0 md:flex-row md:space-x-2 text-bistre">
-        <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-bone bg-opacity-50  md:m-0 md:ml-2">
+    <div className="flex flex-col md:flex-row md:space-x-2 text-bistre">
+        <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream  md:m-0 md:ml-2">
             <div className='image-container'>
                 <Image 
                     src="/soundhealing.jpg"
@@ -23,7 +23,7 @@ const SoundHealing = () => {
             <a href="/soundhealing"><p className='hover:cursor underline hover:text-carmine'>Find out more</p></a>
         </div>
 
-        <div className="flex flex-col md:m-0   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-bone text-bistre bg-opacity-50">
+        <div className="flex flex-col md:m-0   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream text-bistre">
             <div className='image-container'>
                 <Image 
                     src="/lifecoaching.jpg"
@@ -38,7 +38,7 @@ const SoundHealing = () => {
             <a href="/coaching"><p className='underline hover:cursor hover:text-carmine'>Find out more</p></a>
         </div>
 
-        <div className="flex flex-col md:m-0 items-center p-6 m-6 space-y-6 rounded-lg bg-bone text-bistre bg-opacity-50 md:w-1/3 md:mr-2">
+        <div className="flex flex-col md:m-0 items-center p-6 m-6 space-y-6 rounded-lg bg-khaki-cream text-bistre md:w-1/3 md:mr-4">
             <div className='image-container'>
                 <Image 
                     src="/backgroundImage.jpg"

@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Testimonials from "./components/Testimonials";
 import SoundHealing from "./components/Info";
 import About from "./components/About";
 import Form from "./components/Form";
 import Reviews from "./components/Reviews";
-import ContactForm from "./components/ContactForm";
+import ContactForm from "./contact/components/ContactForm";
 import CallToAction from "./components/CallToAction";
 
 export default function Home() {

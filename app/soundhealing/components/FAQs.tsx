@@ -14,8 +14,8 @@ const faqItems = [
 
 const FAQs = () => {
   return (
-    <div className='w-full pt-5 pb-5 bg-khaki-cream'>
-        <h2 className='text-5xl'>FAQ's</h2>
+    <div className='w-full pt-5 pb-14 bg-carmine text-khaki-cream'>
+        <h2 className='pl-6 text-5xl'>FAQ's</h2>
         <Accordion faqItems={faqItems} />
     </div>
   )

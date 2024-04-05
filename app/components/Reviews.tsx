@@ -44,7 +44,7 @@ const Reviews = () => {
         },
         {
             id: "feedback-8",
-            text: "Jenny is a wonderful lifecoach. She listens and understands and has really helped me to start reframing some of my thoughts and limiting beliefs.",
+            text: "Jenny is a wonderful lifecoach. She listens and understands and has really helped me to start reframing my negative thoughts and limiting beliefs. I would highly recommend Jenny, she is such a safe space and I can feel such progress after only a few sessions! Thanks Jenn.",
             name: "Molly",
             country: "UK"
         }
@@ -77,19 +77,30 @@ const Reviews = () => {
     <div>
       <div className='flex flex-col  items-center text-center'>
       <h2 className='text-3xl md:text-5xl my-5'>What people are saying about me</h2>
-    <div className="px-6 m-6 border bg-khaki-cream rounded-lg">
-        <p className='text-xl pt-5'>{feedback[currentIndex].text}</p>
+    <div className="px-6 m-6 border flex justify-center items-center text-center flex-col bg-khaki-cream rounded-lg md:h-[300px] lg:mx-20 lg:h-[250px] ">
+        <p className='md:text-xl pt-5'>{feedback[currentIndex].text}</p>
 
-        <p className='text-lg pt-5 font-bold'>{feedback[currentIndex].name}</p>
+        <p className='text-lg pt-5 font-bold align-bottom '>{feedback[currentIndex].name}</p>
 
         <p className='text-base pt-2 pb-2 italic'>{feedback[currentIndex].country}</p>
        
     
 
     </div>
-          <div className='flex justify-around pb-5'>
-          <button onClick={prevSlide}>previous</button>
-          <button onClick={nextSlide}>next</button>
+     <div className='flex justify-around pb-5'>
+        <button 
+        onClick={prevSlide}>
+          <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m15 19-7-7 7-7"/>
+          </svg>
+        </button>
+
+<button 
+onClick={nextSlide}>
+  <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
+  </svg>
+</button>
         
 
           </div>

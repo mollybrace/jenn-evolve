@@ -41,56 +41,43 @@ const ContactForm = () => {
     
     <div>
         <div>
-            <p className='text-5xl'>
-            Have a question? Get in touch!</p>
+            <p className='md:text-5xl text-3xl pl-6 pt-6'>
+            Have a question?</p>
+            <p className=' text-2xl md:text-4xl pl-10 md:pl-14 pb-6'>Get in touch!</p>
         </div>
 
        
         <form 
-        className='pl-5 pr-5 justify-center flex flex-col items-center' 
+        className='justify-around flex flex-col items-center bg-khaki-cream rounded-xl mx-4 md:mx-20 mb-10' 
         ref={form}
         onSubmit={handleSubmit}
         >
-          <div>
 
-          <label 
-            htmlFor="fullname"
-            className='p-5 flex justify-center items-center font-bold'
-
-            >
-              Full Name
-          </label>
-          
-          
           <input 
             placeholder='Full Name...'
             type='text'
             id="fullname"
             value={fullname}
             name="fullname"
-            className='input input-lg input-bordered w-full max-w-lg bg-moonstone border-blue-morelli shadow-lg mb-5  '
+            className='mt-10 input input-lg input-bordered md:w-full max-w-lg shadow-lg mb-5 rounded-xl p-4 '
             required
             onChange={(event) => setFullname(event.target.value)}
             />
 
-        
-          <label htmlFor="email" className='flex justify-center font-bold pb-5'>Email Address</label>
+
           <input  
             type="email"
             name="email"
             id="email"
             value={email}
             placeholder='Email...'
-            className='input input-bordered w-full max-w-xl bg-moonstone border-blue-morelli shadow-lg mb-5'
+            className='input input-lg input-bordered md:w-full max-w-lg shadow-lg mb-5 rounded-xl p-4 '
             onChange={(event) => setEmail(event.target.value)}
             required
 
             />
-          </div>
+    
           <div className='flex flex-col items-center'>
-          <label 
-            htmlFor="message"
-            className='flex justify-center items-center font-bold pb-5'>Message</label>
             <div className='flex  justify-center'>
 
           <textarea
@@ -100,7 +87,7 @@ const ContactForm = () => {
             rows={10}
             cols={60}
             id="message"
-            className='textarea-md textarea-bordered w-full max-w-lg bg-moonstone border border-blue-morelli rounded-lg shadow-lg p-5 flex justify-center '
+            className='textarea-md textarea-bordered w-full max-w-lg border  rounded-lg shadow-lg p-5 mx-4'
             onChange={(event) => setMessage(event.target.value)}
             required
           />
@@ -110,7 +97,7 @@ const ContactForm = () => {
         <br></br>
           <button 
           type='submit'
-          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-dogwood text-white font-bold py-2 px-4 rounded shadow pb-4'
+          className='bg-bistre m-2 border p-4 text-khaki-cream transition-all hover:bg-carmine px-6 rounded shadow-xl mb-10'
           >
             Submit
           </button>
