@@ -29,7 +29,7 @@ const AboutMe = () => {
         </div>
         <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
         <Image 
-          src="/mission.jpg"
+          src="/mission.JPG"
             width={500}
             height={500}
             alt="jenny"
