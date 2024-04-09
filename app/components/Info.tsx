@@ -10,7 +10,7 @@ const SoundHealing = () => {
         <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream  md:m-0 md:ml-2">
             <div className='image-container'>
                 <Image 
-                    src="/soundhealing.JPG"
+                    src="/soundhealing.jpg"
                     alt="profile photo"
                     width={300}
                     height={300} 
@@ -26,7 +26,7 @@ const SoundHealing = () => {
         <div className="flex flex-col md:m-0   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream text-bistre">
             <div className='image-container'>
                 <Image 
-                    src="/lifecoaching.JPG"
+                    src="/lifecoaching.jpg"
                     alt="profile photo"
                     width={300}
                     height={300} 
