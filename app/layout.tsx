@@ -4,6 +4,7 @@ import "./globals.css";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import { Montserrat } from "next/font/google";
+import Nav from "./components/Nav";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <div className='overflow-hidden'>
         <body className={montserrat.className}>
+        <Nav />
         <Hero />
           <main className="overflow-hidden">
             {children}

@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect, use } from 'react'
 
 
 const navLinks = [
@@ -13,13 +13,55 @@ const navLinks = [
 
 const Nav = () => {
   const [isClicked, setIsClicked] = useState(false)
+  const [scrolled, SetIsScrolled] = useState(true)
+
 
   const toggleNavbar = () :void => {
     setIsClicked(!isClicked)
   }
 
+  
+   
+  useEffect(() => {
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition > 66 ) {
+      SetIsScrolled(true)
+    } else SetIsScrolled(false)
+  }
+   
+  
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [scrolled])
+
+
+    useEffect(() => {
+      const changeNavOnScroll = () => {
+        const navbar = document.getElementById("nav-bar")
+        const openNav = document.getElementById("open-nav")
+    
+        if (navbar && openNav) {
+      if (scrolled) {
+        navbar.classList.add("bg-khaki-cream", "shadow-2xl", "sticky", "top-0")
+      } else {
+        navbar.classList.remove("bg-khaki-cream", "shadow-2xl", "sticky")
+        openNav.classList.remove("bg-khaki-cream")
+      }
+      if (isClicked && scrolled) {
+        openNav.classList.add("bg-khaki-cream")
+      } else
+      openNav.classList.remove("bg-khaki-cream")
+    }
+  }
+    changeNavOnScroll()
+    },[scrolled, isClicked])
+
   return (
-    <nav className='top-0 sticky'>
+    <nav id="nav-bar" className={`top-0 relative w-full bg-red z-10 transition`}>
       <div>
           <button
               className='inline-flex flex-row items-center p-2 rounded-md text-white'
@@ -51,7 +93,7 @@ const Nav = () => {
           </button>
 </div>
 {isClicked && (
-  <div className='flex'>
+  <div id="open-nav" className='flex absolute top-full left-0 w-full'>
       <ul className='text-white border-content flex flex-row'>
         {navLinks.map(link => (
           <li key={link.href} className='border-content px-2 py-6 text-xl hover:underline'>

@@ -3,14 +3,14 @@ import React from 'react'
 
 const SoundHealing = () => {
   return (
-<section> 
-    <div className="relative px-2 mx-auto mt-10 text-center md:px-0  text-khaki-green pb-10 lg:mx-10 ">
+<section className='border top-0'> 
+    <div className=" px-2 mx-auto mt-10 text-center md:px-0  text-khaki-green pb-10 lg:mx-10">
 
     <div className="flex flex-col md:flex-row md:space-x-2 text-bistre">
         <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream  md:m-0 md:ml-2">
             <div className='image-container'>
                 <Image 
-                    src="/soundhealing.jpg"
+                    src="/soundhealing.JPG"
                     alt="profile photo"
                     width={300}
                     height={300} 
@@ -26,7 +26,7 @@ const SoundHealing = () => {
         <div className="flex flex-col md:m-0   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/3 bg-khaki-cream text-bistre">
             <div className='image-container'>
                 <Image 
-                    src="/lifecoaching.jpg"
+                    src="/lifecoaching.JPG"
                     alt="profile photo"
                     width={300}
                     height={300} 

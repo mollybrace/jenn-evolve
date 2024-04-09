@@ -1,10 +1,8 @@
-import Image from "next/image";
 import SoundHealing from "./components/Info";
 import About from "./components/About";
-import Form from "./components/Form";
 import Reviews from "./components/Reviews";
-import ContactForm from "./contact/components/ContactForm";
 import CallToAction from "./components/CallToAction";
+import Nav from "./components/Nav";
 
 export default function Home() {
   return (
@@ -12,8 +10,9 @@ export default function Home() {
     
 
       <section >
-        
+
       </section>
+
       <section>
         <SoundHealing />
       </section>
