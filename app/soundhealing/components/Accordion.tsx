@@ -1,7 +1,8 @@
 import React from 'react'
 import AccordionItem from './AccordionItem'
 
-const Accordion = ( { faqItems }) => {
+const Accordion = (  {faqItems} ) => {
+  console.log(faqItems)
   return (
     <div className="w-full max-w-lg mx-auto">
       {faqItems.map((item, index) => (

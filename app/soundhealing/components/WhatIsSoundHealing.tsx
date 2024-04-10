@@ -11,13 +11,14 @@ const WhatIsSoundHealing = () => {
             <p className='pt-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique perferendis cupiditate, beatae libero consequatur aliquam, exercitationem non, officia perspiciatis repellat ipsam corporis voluptatibus tenetur unde et quas enim placeat delectus.</p>
 
           </div>
-        <div className='basis-1/2  lg:items-center flex'>
+        <div className='basis-1/2  md:items-center justify-center flex border'>
         <Image 
                     src="/soundhealing.JPG"
                     alt="profile photo"
                     width={400}
                     height={400} 
-                    className='py-10 rounded-lg' 
+                    layout='responsive'
+                    className='py-10 px-6 md:px-20' 
                     />
 
                     </div>

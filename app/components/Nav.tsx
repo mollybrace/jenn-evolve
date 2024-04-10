@@ -93,10 +93,10 @@ const Nav = () => {
           </button>
 </div>
 {isClicked && (
-  <div id="open-nav" className='flex absolute top-full left-0 w-full'>
-      <ul className='text-white border-content flex flex-row'>
+  <div id="open-nav" className='flex absolute top-full left-0 w-full '>
+      <ul className='text-white  border-content flex flex-row justify-around'>
         {navLinks.map(link => (
-          <li key={link.href} className='border-content px-2 py-6 text-xl hover:underline'>
+          <li key={link.href} className='flex border-content px-2 py-6 text-xl hover:underline justify-center align-middle text-center'>
             <Link className="bg-black bg-opacity-30" href={link.href}>
               {link.label}
             </Link>

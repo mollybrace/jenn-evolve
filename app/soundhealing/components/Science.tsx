@@ -21,7 +21,7 @@ const Science = () => {
      
       {facts.map((fact) => (
          <div className='shadow-2xl rounded-lg bg-khaki-cream flex flex-col text-center my-6 md:mx-6'>
-            <p className='font-bold text-xl p-4 border bg-bistre/90 rounded-t-lg text-white'>{fact.fact}</p>
+            <p className='font-bold text-xl p-4 border bg-bistre/90 rounded-t-lg text-khaki-cream'>{fact.fact}</p>
           <p className='p-4 text-bistre'>{fact.information}</p></div>
       ))}
   
