@@ -2,6 +2,7 @@ import React from 'react'
 import FAQs from '../soundhealing/components/FAQs'
 import Intro from './components/Intro'
 import CoachingCTA from './components/coachingCTA'
+import SessionsAndFees from './components/SessionsAndFees'
 
 
 const Coaching = () => {
@@ -20,7 +21,9 @@ const Coaching = () => {
     <Intro/>
   </section>
 
-
+    <section>
+      <SessionsAndFees />
+    </section>
     
     <section>
       <FAQs faqItems={faqItems}/>

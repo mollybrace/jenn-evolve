@@ -4,7 +4,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div>
-    <div className='text-5xl pl-4 py-5 top-0'>Life Coaching?</div>
+    <div className='text-5xl pl-4 py-5 top-0'>What is Life Coaching?</div>
     <div className='flex flex-col justify-center items-center lg:flex-row'>
       <div className='pl-3 basis-1/2'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae libero cupiditate, porro modi sed praesentium a doloremque voluptatum, ducimus ullam tenetur maiores possimus suscipit, aliquam aliquid amet facilis. Expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi.</p>
