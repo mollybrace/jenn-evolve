@@ -6,8 +6,8 @@ const AboutMe = () => {
    <div>
       <div className='flex flex-col md:flex-row'>
         <div className='lg:basis-4/6 md:basis-2/4'>
-          <p className='font-bold pb-2 pt-4'>MISSION & VALUES</p>
-         
+          <p className='font-bold pb-2 text-3xl pl-4 pt-4'>MISSION & VALUES</p>
+         <div className='px-4'>
     <p className='pb-4'>
       At Jenn.Evolve, we know that as children we were taught to be kind to others. It comes easy to us. We are naturals at this. We have empathy for others, yet not for ourselves.
     </p>
@@ -26,6 +26,8 @@ const AboutMe = () => {
     <p className='pb-4'>
     If everyone were to live their lives from a place of compassion for self and others, what a better world we would live in today!
     </p>
+
+         </div>
         </div>
         <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
         <Image 

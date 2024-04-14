@@ -8,7 +8,7 @@ const Science = () => {
     {fact: "Pain Management", information: "Sound therapy has been found to be effective in alleviating pain associated with various conditions, including chronic pain, arthritis, and fibromyalgia. The soothing vibrations of sound can help distract from pain signals and promote the release of endorphins, the body's natural painkillers."},
     {fact: "Brain Plasticity", information: "merging research suggests that sound healing may have the potential to induce neuroplastic changes in the brain. By stimulating neural pathways and promoting synaptic connections, sound therapy could potentially enhance cognitive function, memory, and learning abilities."},
     {fact: "Emotional Healing", information: "Sound healing can have profound effects on emotional well-being by helping to release stored emotions, reduce anxiety and depression, and promote a sense of inner peace and balance. Music therapy, in particular, has been used successfully to support individuals with mental health challenges."},
-    {fact: "Enhanced Immune Function", information: "Research suggests that sound healing may have immune-boosting effects. Studies have shown that listening to certain types of music can increase the production of immune cells, enhance antibody levels, and improve overall immune function."}
+    {fact: "Immune Function", information: "Research suggests that sound healing may have immune-boosting effects. Studies have shown that listening to certain types of music can increase the production of immune cells, enhance antibody levels, and improve overall immune function."}
 
   ]
   return (
@@ -21,7 +21,7 @@ const Science = () => {
      
       {facts.map((fact) => (
          <div className='shadow-2xl rounded-lg bg-khaki-cream flex flex-col text-center my-6 md:mx-6'>
-            <p className='font-bold text-xl p-4 border bg-bistre/90 rounded-t-lg text-khaki-cream'>{fact.fact}</p>
+            <p className='font-bold text-xl p-4 border bg-bistre/90 rounded-t-lg text-khaki-cream md:h-[80px]'>{fact.fact}</p>
           <p className='p-4 text-bistre'>{fact.information}</p></div>
       ))}
   

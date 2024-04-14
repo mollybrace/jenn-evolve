@@ -49,21 +49,25 @@ const Benefits = () => {
 
   return (
     <div>
-      <div className='flex flex-col  items-center'>
+      <div className='flex items-center align-middle flex-col bg-khaki-cream text-bistre '>
       <h2 className='text-3xl md:text-5xl my-5'>Benefits of Soundhealing</h2>
-      <div className='w-full flex align-middle justify-around text-center border'>
+      <div className='w-full flex align-middle justify-around text-center border basis-1/3 flex-col md:flex-row'>
+        <div className='flex items-center justify-center md:pl-10'>
         <Image 
           src={slides[currentIndex].image}
             width={150}
             height={150}
             alt={slides[currentIndex].alt}
+            className='flex justify-center items-center'
             />
-        <p className='text-2xl pt-5 border flex align-middle'>{slides[currentIndex].statement}</p>
+
+        </div>
+        <p className='text-2xl md:text-4xl py-6  flex items-center justify-center align-middle md:basis-2/3'>{slides[currentIndex].statement}</p>
 
       </div>
 
     
-          <div className='flex justify-around'>
+          <div className='flex justify-around py-4'>
           <button onClick={prevSlide}>
             <svg className="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m15 19-7-7 7-7"/>
