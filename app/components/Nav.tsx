@@ -86,7 +86,7 @@ const Nav = () => {
                 <svg 
                   className="w-12 h-12 mt-1 mr-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
                   <path 
-                    stroke="currentColor" stroke-linecap="round" stroke-width="1" 
+                    stroke="currentColor" strokeLinecap="round" strokeWidth="1" 
                     d="M5 7h14M5 12h14M5 17h14"/>
                 </svg>
               )}
