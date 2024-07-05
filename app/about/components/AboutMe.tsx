@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className='flex flex-col md:flex-row-reverse pt-10'>
         <div className='lg:basis-4/6 md:basis-2/4'>
-          <p className='font-bold text-3xl pl-4 pb-2'>MY JOURNEY INTO COACHING</p>
+          <p className='font-bold text-3xl pl-4 pb-2' id="coaching">MY JOURNEY INTO COACHING</p>
           <div className='px-4 pb-6'>
           <p className='pb-4'>
             Calm. Clarity. Confidence.

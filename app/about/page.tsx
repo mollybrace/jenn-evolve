@@ -7,11 +7,12 @@ import CallToAction from '../components/CallToAction'
 import JourneySoundhealing from './components/JourneySoundhealing'
 import WhySoundhealing from './components/WhySoundhealing'
 import PresentJourney from './components/PresentJourney'
+import AboutNav from './components/AboutNav'
 
 
 const About = () => {
   return (
-    <div>
+    <div className='scroll-smooth'>
       <section>
         <Title />
       </section>

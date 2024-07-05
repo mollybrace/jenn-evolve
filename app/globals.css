@@ -9,8 +9,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-   
+    * {
+      scroll-behavior: smooth;
+    }
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

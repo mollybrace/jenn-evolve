@@ -5,12 +5,15 @@ import CallToAction from "./components/CallToAction";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
 import ElevatorPitch from "./about/components/ElevatorPitch";
+import CCC from "./components/CCC";
 
 export default function Home() {
   return (
     <div className="">
     
-
+      <section>
+        <CCC />
+      </section>
       <section >
         <Banner />
       </section>

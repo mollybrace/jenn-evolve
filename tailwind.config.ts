@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+        scrollBehavior: ['responsive'],
+      
       fontFamily: {
         sans: ['var(--font-montserrat)']
       },
+      
       colors: {
         "khaki-green": "#ADA491",
         "khaki-beige": "#CBB6A1",
