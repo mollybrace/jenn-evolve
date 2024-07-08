@@ -10,10 +10,10 @@ const navLinks = [
     {label: "Present Day", href: "#present"},
   ]
   return (
-    <div className='w-full flex justify-around scroll-smooth'>
+    <div className='w-full flex flex-col md:flex-row justify-around scroll-smooth'>
         {navLinks.map(link => (
         <Link
-            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg border-khaki-cream hover:bg-khaki-cream font-bold mb-4'
+            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg border-khaki-cream text-center hover:bg-khaki-cream font-bold mb-4'
             href={link.href}
             key={link.href}>
                 {link.label}

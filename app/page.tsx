@@ -9,7 +9,7 @@ import CCC from "./components/CCC";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-screen overflow-hidden">
     
       <section>
         <CCC />
@@ -17,7 +17,6 @@ export default function Home() {
       <section >
         <Banner />
       </section>
-
       <section>
         <ElevatorPitch />
       </section>

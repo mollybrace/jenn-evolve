@@ -8,7 +8,7 @@ import React, { useEffect } from 'react'
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-          strings: ['Calm, Clarity, Confidence ♡', ],
+          strings: ['Calm, Clarity, Confidence ♡' ],
           typeSpeed: 200, loop: true
         });
         return () => {
@@ -17,7 +17,7 @@ import React, { useEffect } from 'react'
           };
         }, []);
    return (
-     <div className='flex justify-center text-violet-700 text-5xl'>
+     <div className='flex justify-center text-carmine bg-khaki-cream text-xl md:text-5xl'>
         <span ref={el}/>
      </div>
    )

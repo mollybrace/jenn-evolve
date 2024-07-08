@@ -7,13 +7,13 @@ const AboutMe = () => {
         <div className='lg:basis-4/6 md:basis-2/4'>
           <p className='font-bold text-3xl pl-4 pb-2' id="coaching">MY JOURNEY INTO COACHING</p>
           <div className='px-4 pb-6'>
-          <p className='pb-4'>
+          <p className='pb-4 font-bold'>
             Calm. Clarity. Confidence.
           </p>
           <p className='pb-4'>
           This is how coaching has transformed my inner world.
           </p>
-          <p className='pb-4'>
+          <p className='pb-4 font-bold'>
           Calm. Clarity. Confidence.
           </p>
           <p className='pb-4'>

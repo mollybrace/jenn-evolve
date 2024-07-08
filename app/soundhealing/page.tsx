@@ -4,8 +4,22 @@ import Science from './components/Science'
 import WhatIsSoundHealing from './components/WhatIsSoundHealing'
 import SoundhealingCTA from './components/SoundhealingCTA'
 import FAQs from './components/FAQs'
+import ForMe from './components/ForMe'
+
 
 const SoundHealing = () => {
+
+  const benefits = [
+    "You want to feel a deeper connection with your body", 
+    "You want to destress, rest and relax", 
+    "You want to heal your body at a cellular level", 
+    "You want to move stuck energy through your body", 
+    "You have been feeling stuck in life", "You are looking for more clarity", 
+    "You want to find a community of like-minded people", 
+    "You want to show yourself more self-compassion", 
+    "You are searching for the perfect combination between body, mind and spirit"
+
+  ]
 
   const faqItems = [
     {question: "What is a group sound bath?", answer: "During a sound bath you’ll be immersed in the soothing sounds of Himalayan Singing Bowls and you’ll feel as if the sounds are washing over you (hence the name). <br> Group sound baths are usually an hour long (unless otherwise stated) and typically involve participants laying down on a yoga mat in savasana position. Although you may lay or sit in any position which feels comfortable and allows you to relax into the experience. Participants close their eyes and focus on their breath as they feel the vibrations created by sound. A sound practitioner facilitates the session using a combination of frequencies created by instruments, voice and music to prepare the nervous system to go into the parasympathetic nervous system state. This creates the environment for the body to go into its own natural healing, relieving stress and anxiety from the body."},
@@ -18,6 +32,10 @@ const SoundHealing = () => {
       <section>
         <WhatIsSoundHealing />
       </section>
+      <section>
+        <ForMe benefits={benefits} />
+      </section>
+
       <section>
         <Benefits />
       </section>
