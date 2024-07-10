@@ -5,6 +5,8 @@ import WhatIsSoundHealing from './components/WhatIsSoundHealing'
 import SoundhealingCTA from './components/SoundhealingCTA'
 import FAQs from './components/FAQs'
 import ForMe from './components/ForMe'
+import Title from './components/Title'
+import CCC from '../components/CCC'
 
 
 const SoundHealing = () => {
@@ -30,12 +32,17 @@ const SoundHealing = () => {
   return (
     <div> 
       <section>
+        <Title />
+      </section>
+
+      <section>
         <WhatIsSoundHealing />
       </section>
+
       <section>
         <ForMe benefits={benefits} />
       </section>
-
+      
       <section>
         <Benefits />
       </section>

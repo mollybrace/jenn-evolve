@@ -48,17 +48,17 @@ const Benefits = () => {
 
 
   return (
-    <div>
-      <div className='flex items-center align-middle flex-col bg-khaki-cream text-bistre '>
-      <h2 className='text-3xl md:text-5xl my-5'>Benefits of Soundhealing</h2>
-      <div className='w-full flex align-middle justify-around text-center border basis-1/3 flex-col md:flex-row'>
+    <div className='flex justify-center'>
+      <div className='flex items-center align-middle flex-col bg-khaki-cream text-bistre w-full md:w-2/3 lg:w-1/2  md:rounded-lg '>
+      <h2 className='text-3xl md:text-5xl my-5'>Benefits</h2>
+      <div className='flex align-middle justify-around text-center basis-1/3 flex-col '>
         <div className='flex items-center justify-center md:pl-10'>
         <Image 
           src={slides[currentIndex].image}
             width={150}
             height={150}
             alt={slides[currentIndex].alt}
-            className='flex justify-center items-center'
+            className='flex justify-center items-center transition-transform duration-500 ease-in-out'
             />
 
         </div>

@@ -9,7 +9,7 @@ import React, { useEffect } from 'react'
     useEffect(() => {
         const typed = new Typed(el.current, {
           strings: ['Calm, Clarity, Confidence ♡' ],
-          typeSpeed: 200, loop: true
+          typeSpeed: 2000, loop: true
         });
         return () => {
             // Destroy Typed instance during cleanup to stop animation

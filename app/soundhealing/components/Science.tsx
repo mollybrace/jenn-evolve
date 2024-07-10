@@ -31,7 +31,7 @@ const Science = () => {
     <div className='grid grid-cols-1 md:grid-cols-2 gap-2 p-6'>
      
       {facts.map((fact) => (
-         <div className='shadow-2xl rounded-lg bg-khaki-cream flex flex-col hover:bg-carmine hover:text-khaki-cream text-center my-6 md:mx-6'>
+         <div className='shadow-2xl rounded-lg bg-khaki-cream flex flex-col transition ease-in-out hover:bg-carmine hover:text-khaki-cream text-center my-6 md:mx-6'>
             <p className='font-bold text-2xl p-4 rounded-t-lg  md:h-[75px]'>{fact.fact}</p>
             <p>{fact.type}</p> 
             <p className='p-4'>{fact.information}</p>
