@@ -25,11 +25,11 @@ const JourneySoundhealing = () => {
         </div>
         <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
         <Image 
-          src="/mission.JPG"
-            width={500}
-            height={500}
+          src="/healingImage2.JPG"
+            width={400}
+            height={300}
             alt="jenny"
-            className='border'
+            className='border rounded-lg rotate-3'
             />
         </div>
       </div>
