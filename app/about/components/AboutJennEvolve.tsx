@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className='flex flex-col md:flex-row'>
         <div className='lg:basis-4/6 md:basis-2/4'>
           <p className='font-bold pb-2 text-3xl pl-4 pt-4'>MISSION & VALUES</p>
-         <div className='px-4'>
+         <div className='px-4 z-0'>
     <p className='pb-4'>
       At Jenn.Evolve, we know that as children we were taught to be kind to others. It comes easy to us. We are naturals at this. We have empathy for others, yet not for ourselves.
     </p>
@@ -29,13 +29,13 @@ const AboutMe = () => {
 
          </div>
         </div>
-        <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
+        <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center pt-6'>
         <Image 
           src="/backgroundImage2.jpg"
             width={500}
             height={500}
             alt="jenny"
-            className='border rotate-12 rounded-lg'
+            className='border rotate-12 rounded-lg z-10'
             />
         </div>
       </div>

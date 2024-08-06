@@ -97,7 +97,7 @@ const ContactForm = () => {
         <br></br>
           <button 
           type='submit'
-          className='bg-bistre m-2 border p-4 text-khaki-cream transition-all hover:bg-carmine px-6 rounded shadow-xl mb-10'
+          className='bg-bistre m-2 border p-4 text-khaki-cream transition-all hover:bg-carmine px-6 rounded-xl shadow-xl mb-10'
           >
             Submit
           </button>

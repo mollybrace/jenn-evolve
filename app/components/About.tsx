@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from './Button'
 
 const About = () => {
     
@@ -20,14 +21,16 @@ const About = () => {
 
             <div className='py-5 flex flex-col items-center md:w-1/2 text-center md:text-lg'>
                 <p className='pb-5 pl-4'>
-                  a compassionate coach specializing in healing the body and the mind by accessing the subconscious with a unique combination of coaching and sound healing. </p>
+                  A compassionate coach specializing in healing the body and the mind by accessing the subconscious with a unique combination of coaching and sound healing. </p>
                   <p className='pb-5 pl-4'>
                     With a degree in Psychology, training in ICF, NLP and CBT techniques and as an advanced level sound healing practitioner, I can support you to quieten the inner critic, develop confidence, trust, calm and clarity.
                 </p>
                 <p className='pb-5 text-center'>Are you ready to level up your life? </p>
-                <p>Get in touch for our whole body healing packages.
-</p>
-                <p><a href='/about' className='hover:cursor underline'>Find out more</a></p>
+                <p>Get in touch for our whole body healing packages.</p>
+                
+              <a href='/about' >
+                <Button />
+              </a>
             </div>
         </div>
     </div>

@@ -12,12 +12,10 @@ import AboutNav from './components/AboutNav'
 
 const About = () => {
   return (
+      
     <div className='scroll-smooth'>
       <section>
         <Title />
-      </section>
-      <section>
-        <ElevatorPitch />
       </section>
       <section>
         <AboutJennEvolve />

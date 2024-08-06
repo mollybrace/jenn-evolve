@@ -5,8 +5,15 @@ const Footer = () => {
  
   return (
    <footer className='h-auto bg-khaki-cream text-bistre'>
-    <div className='flex justify-center py-6'>
-      <p className='font-bold text-2xl'>Jenn Evolve</p>
+    <div className='flex justify-center flex-col items-center py-6'>
+      <div>
+        <p className='font-bold text-2xl'>Jenn Evolve</p>
+      </div>
+      <div>
+        <a href="/">
+       <img  src="footer-background.png" className='flex items-center justify-center h-24 w-24 bg-blue-950 object-cover rounded-full shadow-md  text-white z-20'></img>
+        </a>
+      </div>
     </div>
     <div className='flex py-6 justify-around'>
       {/* <p>

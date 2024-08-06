@@ -1,4 +1,5 @@
 import React from 'react'
+import SessionCard from './SessionCard'
 
 const Science = () => {
 
@@ -24,19 +25,14 @@ const Science = () => {
 
   ]
   return (
-    <div className=" text-bistre relative">
+    <div id="sessions" className=" text-bistre relative">
      <div className='flex flex-col items-center '>
-      <h2 className="text-3xl md:text-5xl my-5 pt-1">Sound Healing Sessions</h2>
+      <h2 className="text-5xl md:text-5xl pt-4">Sessions</h2>
     </div>
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-2 p-6'>
+    <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-6'>
      
       {facts.map((fact) => (
-         <div className='shadow-2xl rounded-lg bg-khaki-cream flex flex-col transition ease-in-out hover:bg-carmine hover:text-khaki-cream text-center my-6 md:mx-6'>
-            <p className='font-bold text-2xl p-4 rounded-t-lg  md:h-[75px]'>{fact.fact}</p>
-            <p>{fact.type}</p> 
-            <p className='p-4'>{fact.information}</p>
-             <p className='text-xl'>Book now</p>
-          </div>
+        <SessionCard fact={fact} />
       ))}
   
     </div>

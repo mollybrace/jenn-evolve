@@ -11,12 +11,7 @@ export default function Home() {
   return (
     <div className="w-screen overflow-hidden">
     
-      <section>
-        <CCC />
-      </section>
-      <section >
-        <Banner />
-      </section>
+  
       <section>
         <ElevatorPitch />
       </section>

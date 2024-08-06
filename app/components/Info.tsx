@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from './Button'
 
 const SoundHealing = () => {
   return (
@@ -10,7 +11,7 @@ const SoundHealing = () => {
         <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream  md:m-0 md:ml-2">
             <div className='image-container'>
                 <Image 
-                    src="/soundhealing.JPG"
+                    src="/backgroundImage2.JPG"
                     alt="profile photo"
                     width={300}
                     height={300} 
@@ -20,7 +21,9 @@ const SoundHealing = () => {
             
             <h2 className='font-bold text-2xl'>Sound Healing</h2>
             <p>Your personal sanctuary for sound healing and vibrational therapy. Discover the transformative power of sound healing with expert-led sound healing meditation sessions and therapeutic sound baths. </p>
-            <a href="/soundhealing"><p className='hover:cursor underline hover:text-carmine'>Find out more</p></a>
+            <a href="/soundhealing">
+                <Button />
+            </a>
         </div>
 
         <div className="flex flex-col md:m-0   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream text-bistre">
@@ -35,7 +38,9 @@ const SoundHealing = () => {
             </div>
             <h2 className='font-bold text-2xl'>Life Coaching</h2>
             <p>This is where your journey to personal growth and success begins with professional life coaching to empower you to achieve your goals and unlock your full potential. </p>
-            <a href="/coaching"><p className='underline hover:cursor hover:text-carmine'>Find out more</p></a>
+            <a href="/coaching">
+                <Button />
+            </a>
         </div>
 
         

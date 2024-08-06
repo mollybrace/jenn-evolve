@@ -5,9 +5,9 @@ const SoundNav = () => {
 
 const navLinks = [
     {label: "What is Sound Healing", href: "#mission"},
-    {label: "Benefits", href: "#coaching"},
-    {label: "Sessions", href: "#sound-healing"},
-    {label: "FAQs", href: "#present"},
+    {label: "Benefits", href: "#benefits"},
+    {label: "Sessions", href: "#sessions"},
+    {label: "FAQs", href: "#faq"},
   ]
   return (
     <div className='w-full flex flex-col md:flex-row justify-around scroll-smooth'>

@@ -17,7 +17,7 @@ import React, { useEffect } from 'react'
           };
         }, []);
    return (
-     <div className='flex justify-center text-carmine bg-khaki-cream text-xl md:text-5xl'>
+     <div className='flex justify-center text-carmine text-xl lg:text-4xl'>
         <span ref={el}/>
      </div>
    )

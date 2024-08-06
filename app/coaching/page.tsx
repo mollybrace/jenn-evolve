@@ -26,10 +26,8 @@ const Coaching = () => {
   return (
     <div>
     <section>
-    <Intro/>
-  </section>
-
-  <CoachingInvolve benefits={benefits}/>
+      <Intro/>
+    </section>
 
     <section>
       <Booking />
@@ -38,6 +36,7 @@ const Coaching = () => {
     <section>
       <FAQs faqItems={faqItems}/>
     </section>
+    
     <section>
       <CoachingCTA />
     </section>

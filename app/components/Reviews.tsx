@@ -47,6 +47,11 @@ const Reviews = () => {
             text: "Jenny is a wonderful lifecoach. She listens and understands and has really helped me to start reframing my negative thoughts and limiting beliefs. I would highly recommend Jenny, she is such a safe space and I can feel such progress after only a few sessions! Thanks Jenn.",
             name: "Molly",
             country: "UK"
+        },
+        {id: "feedback-9",
+        text: "Working with Jenn was a true pleasure, and by fate, we worked together one-on-one, addressing limiting beliefs, values, and other meaningful issues that came up. Jenn listens with care and attention and offers insightful information from her own personal experiences as well as her mastery of psychological knowledge. I felt as if I was talking with a long-life friend which is really important when having to get vulnerable with a complete stranger. Her questions challenged me, but in the best way possible. I grew a lot from the work we did together and I hope I get an opportunity to work with her again one day!",
+        name: "Kimberley",
+        country: "USA"
         }
       
       ]

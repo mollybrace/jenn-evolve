@@ -42,10 +42,7 @@ const SoundHealing = () => {
       <section>
         <ForMe benefits={benefits} />
       </section>
-      
-      <section>
-        <Benefits />
-      </section>
+    
 
       <section>
         <Science />

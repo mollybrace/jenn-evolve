@@ -53,3 +53,11 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.homepage-button {
+  background-color: carmine;
+  color: khaki-cream;
+  padding: 4;
+  margin: 4;
+  cursor: pointer;
+}
