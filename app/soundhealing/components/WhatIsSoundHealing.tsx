@@ -19,12 +19,12 @@ const WhatIsSoundHealing = () => {
           
         <div className='basis-1/2  md:items-center justify-center flex'>
         <Image 
-                    src="/soundhealing.JPG"
+                    src="/soundhealingImage1.jpg"
                     alt="profile photo"
-                    width={400}
-                    height={400} 
+                    width={300}
+                    height={300} 
                     layout='responsive'
-                    className='py-10 px-6 md:px-20' 
+                    className='py-10 px-6 rounded-xl md:px-20' 
                     />
 
                     </div>

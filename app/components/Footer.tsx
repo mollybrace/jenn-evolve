@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div>
         <a href="/">
-       <img  src="footer-background.png" className='flex items-center justify-center h-24 w-24 bg-blue-950 object-cover rounded-full shadow-md  text-white z-20'></img>
+       <img  src="footer-background.png" className='flex items-center justify-center h-20 w-20 bg-blue-950 object-cover rounded-full shadow-md  text-white z-20'></img>
         </a>
       </div>
     </div>

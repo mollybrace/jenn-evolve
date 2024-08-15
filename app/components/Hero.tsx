@@ -2,13 +2,15 @@
 import React, { useEffect, useState } from 'react'
 import Nav from './Nav'
 import CCC from './CCC'
+import Nav2 from './Nav2'
 
 const Hero = () => {
 
   return (
     <div className='h-screen w-screen'>
-        <Nav />
+        <Nav2 />
     <div id="hero" className="bg-[url('/backgroundImage.jpg')] h-full w-full bg-no-repeat bg-center bg-cover absolute z-[-1] top-0">
+
         <div className='absolute bottom-[40px] left-7 text-4xl lg:text-7xl md:bottom-[400px] text-black md:left-16  bg-opacity-50'>Jenn.Evolve
         <CCC />
         </div>

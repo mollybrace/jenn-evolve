@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import { Montserrat } from "next/font/google";
 import Nav from "./components/Nav";
+import Nav2 from "./components/Nav2";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <div className='overflow-hidden'>
         <body className={montserrat.className}>
         <Hero />

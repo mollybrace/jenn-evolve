@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import React, { useState, useEffect, use } from 'react'
+import React, { useState, useEffect } from 'react'
 
 
 const navLinks = [
