@@ -5,11 +5,10 @@ import Button from './Button'
 const SoundHealing = () => {
   return (
 <section className='border top-0'> 
-    <div className=" px-2 mx-auto mt-10 text-center md:px-0  text-khaki-green pb-10 lg:mx-10">
-
-    <div className="flex flex-col md:flex-row md:space-x-2 text-bistre">
-        <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream  md:m-0 md:ml-2">
-            <div className='image-container'>
+    <div className="my-10 mx-4 md:mx-10 text-center">
+         <div className="flex flex-col md:flex-row md:space-x-6 lg:space-x-20 text-bistre">
+            <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream  md:m-0 md:ml-2">
+             <div className='image-container'>
                 <Image 
                     src="/backgroundImage2.JPG"
                     alt="profile photo"
@@ -19,8 +18,9 @@ const SoundHealing = () => {
                 />
             </div>
             
-            <h2 className='font-bold text-2xl'>Sound Healing</h2>
-            <p>Your personal sanctuary for sound healing and vibrational therapy. Discover the transformative power of sound healing with expert-led sound healing meditation sessions and therapeutic sound baths. </p>
+            <h2 className='font-bold text-4xl md:text-5xl'>Sound Healing</h2>
+            <p className='md:text-xl'>Your personal sanctuary for sound healing and therapy. Discover the transformative power of sound with expert-led meditation sessions and therapeutic sound baths that nurture your well-being and promote deep healing.
+            </p>
             <a href="/soundhealing">
                 <Button />
             </a>
@@ -36,8 +36,8 @@ const SoundHealing = () => {
                     className='rounded-100'
                 />
             </div>
-            <h2 className='font-bold text-2xl'>Life Coaching</h2>
-            <p>This is where your journey to personal growth and success begins with professional life coaching to empower you to achieve your goals and unlock your full potential. </p>
+            <h2 className='font-bold text-4xl md:text-5xl'>Life Coaching</h2>
+            <p className='md:text-xl'>Begin your journey to personal growth and success with our professional life coaching. We empower you to overcome self-doubt, boost confidence, reduce anxiety, calm your mind, achieve inner peace, and embrace life with self-compassion. </p>
             <a href="/coaching">
                 <Button />
             </a>

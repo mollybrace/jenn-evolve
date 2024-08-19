@@ -3,7 +3,7 @@ import About from "./components/About";
 import Reviews from "./components/Reviews";
 import CallToAction from "./components/CallToAction";
 import Banner from "./components/Banner";
-import ElevatorPitch from "./about/components/ElevatorPitch";
+import ElevatorPitch from "./components/ElevatorPitch";
 
 export default function Home() {
   return (

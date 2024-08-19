@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
    <div>
       <div className='flex flex-col md:flex-row'>
-        <div className='lg:basis-4/6 md:basis-2/4'>
+        <div className='bg-khaki-cream lg:basis-4/6 md:basis-2/4'>
           <p className='font-bold pb-2 text-3xl pl-4 pt-4'>MISSION & VALUES</p>
          <div className='px-4 z-0'>
     <p className='pb-4'>
@@ -29,7 +29,7 @@ const AboutMe = () => {
 
          </div>
         </div>
-        <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center pt-6'>
+        <div className=' bg-khaki-cream md:basis-2/4 lg:basis-2/6 flex justify-center items-center pt-6'>
         <Image 
           src="/backgroundImage2.jpg"
             width={500}

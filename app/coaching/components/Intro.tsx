@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div>
     <div className='text-5xl pl-4 py-5 top-0'>Evolve Coaching</div>
-    <div className='flex flex-col justify-center items-center lg:flex-row'>
+    <div className=' m-12  pl-6 flex flex-col justify-center items-center lg:flex-row'>
       <div className='pl-3 basis-1/2'>
       <div className='flex justify-center text-center'>
         <p className='font-bold'>

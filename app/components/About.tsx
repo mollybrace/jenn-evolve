@@ -6,33 +6,36 @@ const About = () => {
     
   return (
       <div className='min-h-500 bg-khaki-cream text-bistre'>
-        <h2 className='items-center flex justify-center pb-3 text-5xl pt-6'>Hi, I'm Jenn...</h2>
+        <div className='mx-[100px]'>
+        <h2 className='items-center flex justify-center pb-3 text-5xl pt-6'>Hi I'm Jenn,</h2>
 
         <div className='flex flex-col justify-center md:flex-row   items-center'>
-            <div className='md:w-1/3  flex justify-center items-center rounded-lg'>
+            <div className='md:w-1/3  justify-center items-center mx-4'>
                 <Image 
                     src="/jenn.jpg"
                     alt="profile photo"
-                    width={400}
-                    height={400} 
-                    className='py-10 rounded-lg' 
+                    width={350}
+                    height={350} 
+                    className='rounded-xl mb-6' 
                     />
             </div>
 
-            <div className='py-5 flex flex-col items-center md:w-1/2 text-center md:text-lg'>
-                <p className='pb-5 pl-4'>
-                  A compassionate coach specializing in healing the body and the mind by accessing the subconscious with a unique combination of coaching and sound healing. </p>
-                  <p className='pb-5 pl-4'>
-                    With a degree in Psychology, training in ICF, NLP and CBT techniques and as an advanced level sound healing practitioner, I can support you to quieten the inner critic, develop confidence, trust, calm and clarity.
+            <div className='py-5 flex flex-col items-center md:w-2/3 text-center md:text-xl lg:text-xl'>
+                <p className='pb-5 '>
+                I’m a compassionate life coach and sound healing practitioner specializing in nurturing both mind and body through a unique blend of coaching and sound therapy. My approach is grounded in a Psychology degree and further enriched by extensive training in life coaching practices, including NLP, CBT, ICF and Timeline Therapy alongside advanced sound healing practices.
                 </p>
-                <p className='pb-5 text-center'>Are you ready to level up your life? </p>
-                <p>Get in touch for our whole body healing packages.</p>
+                  <p className='pb-5'>
+                  I am dedicated to helping you quiet the inner critic, build confidence, and cultivate calm, clarity and confidence. Whether you’re looking to overcome self-doubt, reduce anxiety, or achieve inner peace, my holistic approach supports your personal growth every step of the way.
+
+                </p>
+                <p className='pb-5 text-center'>Are you ready to transform your life and embrace a new level of well-being? Get in touch to explore our comprehensive whole-body healing packages.  </p>
                 
               <a href='/about' >
                 <Button />
               </a>
             </div>
         </div>
+      </div>  
     </div>
   )
 }
