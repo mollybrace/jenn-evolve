@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='flex flex-col md:flex-row-reverse pt-10 border  mx-8 rounded-xl bg-khaki-beige my-10'>
+    <div className='flex flex-col md:flex-row-reverse pt-10 border  mx-12 rounded-xl bg-khaki-beige my-10'>
         <div className='lg:basis-4/6 md:basis-2/4  mx-8'>
           <p className='font-bold text-3xl pl-4 pb-2' id="coaching">MY JOURNEY INTO COACHING</p>
           <div className='px-4 pb-6'>
@@ -42,7 +42,7 @@ const AboutMe = () => {
             width={500}
             height={500}
             alt="jenny"
-            className='border rotate-2 rounded-lg'
+            className='rotate-2 rounded-lg'
             />
         </div>
       </div>
