@@ -6,22 +6,28 @@ const Science = () => {
   const facts = [
     {fact: "Chakra Balancing",
     type: "(1:1/couple)",
-    information: "8 Himalayan bowls will be used on, around and above the body, which have been specifically tuned to a chakra frequency. As Jenn plays the singing bowl, you will be calmed into a tranquil state while listening to the sounds and feeling the vibrations, the body will be brought back to harmonic balance and restoration."},
+    information: "8 Himalayan bowls will be used on, around and above the body, which have been specifically tuned to a chakra frequency. As Jenn plays the singing bowl, you will be calmed into a tranquil state while listening to the sounds and feeling the vibrations, the body will be brought back to harmonic balance and restoration.",
+    message: "Hi! I would like to enquire about a Chakra Balancing session..."},
     {fact: "Brainwave entrainment",
     type: "(1:1/couple)", 
-    information: "8 Himalayan bowls will be used to entrain the brainwaves to synchronize with the perfect resonance of the bowls. Brain entrainment is a great session for deep meditation, creative thinking and clarity."},
+    information: "7 Himalayan bowls will be used to entrain the brainwaves to synchronize with the perfect resonance of the bowls. Brain entrainment is a great session for deep meditation, creative thinking and clarity.",
+    message: "Hi! I would like to enquire about a brain wave entrainment session..."},
     {fact: "Sound and Vibration Massage",
     type: "(1:1)",
-     information: "Harmonizing cellular tissue, releasing tension, stress and anxiety through sound and vibration the sound and vibration massage will instill a deep relaxation."},
+     information: "Harmonizing cellular tissue, releasing tension, stress and anxiety through sound and vibration the sound and vibration massage will instill a deep relaxation.",
+     message: "Hi! I would like to enquire about a sound and vibration massage..."},
     {fact: "Warm Water Therapy", 
     type: "(1:1)",
-    information: "If you find it more difficult to relax or if you have some physical pains in your body, this one is perfect for you! This is a restorative treatment designed to alleviate pain while promoting a deep relaxation and therapeutic benefits as the muscles relax and stress melts away."},
+    information: "If you find it more difficult to relax or if you have some physical pains in your body, this one is perfect for you! This is a restorative treatment designed to alleviate pain while promoting a deep relaxation and therapeutic benefits as the muscles relax and stress melts away.",
+    message: "Hi! I would like to enquire about a warm water therapy session..."},
     {fact: "Sound Bath Meditation", 
     type: "(1:1/couple/group)", 
-    information: "Sound healing can have profound effects on emotional well-being by helping to release stored emotions, reduce anxiety and depression, and promote a sense of inner peace and balance. Music therapy, in particular, has been used successfully to support individuals with mental health challenges."},
+    information: "Sound healing can have profound effects on emotional well-being by helping to release stored emotions, reduce anxiety and depression, and promote a sense of inner peace and balance. Music therapy, in particular, has been used successfully to support individuals with mental health challenges.",
+    message: "Hi! I would like to enquire about a sound bath meditation session..."},
     {fact: "Chakra Awareness Meditation with Mantra, Mudra & Yantra",  
     type: "(1:1/couple/group)",
-    information: "Active chanting meditation session followed by a passive meditative state while listening to the enchanting sounds of Himalayan Singing Bowls, bells and chimes. Allowing the energy to flow freely throughout your body and build a strong connection between the body, mind and spirit."}
+    information: "Active chanting meditation session followed by a passive meditative state while listening to the enchanting sounds of Himalayan Singing Bowls, bells and chimes. Allowing the energy to flow freely throughout your body and build a strong connection between the body, mind and spirit.",
+    message: "Hi! I would like to enquire about a chakra awareness meditation session..."}
 
   ]
   return (

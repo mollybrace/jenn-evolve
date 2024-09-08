@@ -8,14 +8,15 @@ import JourneySoundhealing from './components/JourneySoundhealing'
 import WhySoundhealing from './components/WhySoundhealing'
 import PresentJourney from './components/PresentJourney'
 import AboutNav from './components/AboutNav'
+import { Mission } from './components/Mission'
 
 
 const About = () => {
   return (
       
-    <div className='scroll-smooth'>
+    <div className='scroll-smooth w-full h-full m-0 p-0'>
       <section>
-        <Title />
+        <AboutNav />
       </section>
       <section>
         <AboutJennEvolve />
@@ -27,12 +28,6 @@ const About = () => {
         <JourneySoundhealing />
       </section>
 
-      <section>
-        <WhySoundhealing />
-      </section>
-      <section>
-        <PresentJourney />
-      </section>
 
       <section>
         <CallToAction />

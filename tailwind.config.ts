@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      objectPosition: {
+        'center-top': 'center top',
+      },
         scrollBehavior: ['responsive'],
       
       fontFamily: {

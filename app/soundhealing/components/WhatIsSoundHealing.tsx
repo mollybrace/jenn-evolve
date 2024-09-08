@@ -3,17 +3,20 @@ import React from 'react'
 
 const WhatIsSoundHealing = () => {
   return (
-    <div>
+    <div className='m-12'>
         <div className='text-5xl pl-4 py-5'>What Is SoundHealing?</div>
         <div className='flex flex-col justify-center items-center lg:flex-row'>
           <div className='pl-3 basis-1/2'>
-            <p>Sound Healing is a powerful therapy that combines different healing sounds, music, instruments as well as voice to slow down the brainwaves to a restorative state (theta brain waves), which activate the body’s self-healing system, promoting well-being and peaceful relaxation.</p>
-            <p className='pt-4'>Every cell, molecule tissue, organ, gland and bone and liquid in our bodies is in constant vibration and has its own state of vibration. Our bodies are made up of on average 60% of water. When we experience sound healing, the frequency (vibrations per second) from the sounds are absorbed by our bodies. During sound healing, our cells vibrate at their optimal frequencies restoring, recharging and rejuvenating the cells.</p>
+            <p>Sound Healing is a transformative therapy that harnesses the power of sound, music, and various instruments—including the human voice—to slow down brain waves and guide you into a deeply restorative state. This meditative state, often characterized by theta brain waves, activates the body's natural self-healing mechanisms, promoting a profound sense of well-being, calm, and peaceful relaxation.
+            </p>
+            <p className='pt-4'>Our bodies, composed of 50-75% water, are in constant vibration. Every cell, molecule, tissue, organ, and even the liquid in our bodies vibrates at its own unique frequency. Sound Healing taps into this inherent vibrational nature, with the frequencies from the sounds absorbed by the body, helping restore, recharge, and rejuvenate your cells. This process not only supports physical healing but also fosters mental clarity and emotional balance.
+            </p>
+
 
             <div className='text-5xl pl-4 py-5'>Instruments</div>
 
-            <p>Himalayan Singing Bowls are an authentic, hand-crafted energy-charged instrument brought to the UK from Nepal via Thailand and have been carefully hand-crafted to enhance the vibration, which you will feel running through your body during your meditative experience, supporting you in gaining a deeper connection with your body and away from your mind.</p>
-            <p className='pt-4'>I would love to invite you to a restorative and restful sound healing experience. For more information about the sound healing treatments we offer, please go to the sound healing sessions section of the website.</p>
+            <p>Every sound healing practitioner brings their own approach to the practice. At Jenn.Evolve, we have carefully selected an array of instruments, including Himalayan Singing Bowls, tingsha bells, koshi chimes and high frequency bowls to craft a unique sound journey. Our intention is to guide you into a blissful meditative state where you can quiet your mind, connect deeply with your body, and experience a profound sense of calm.
+            </p>
 
           </div>
           

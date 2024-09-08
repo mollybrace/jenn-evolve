@@ -7,6 +7,7 @@ import FAQs from './components/FAQs'
 import ForMe from './components/ForMe'
 import Title from './components/Title'
 import CCC from '../components/CCC'
+import SoundNav from './components/SoundNav'
 
 
 const SoundHealing = () => {
@@ -32,7 +33,7 @@ const SoundHealing = () => {
   return (
     <div> 
       <section>
-        <Title />
+        <SoundNav />
       </section>
 
       <section>

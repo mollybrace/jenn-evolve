@@ -14,18 +14,18 @@ const About = () => {
                 <Image 
                     src="/jenn.jpg"
                     alt="profile photo"
-                    width={350}
-                    height={350} 
+                    width={400}
+                    height={500} 
                     className='rounded-xl mb-6' 
                     />
             </div>
 
             <div className='py-5 flex flex-col items-center md:w-2/3 text-center md:text-xl lg:text-xl'>
                 <p className='pb-5 '>
-                I’m a compassionate life coach and sound healing practitioner specializing in nurturing both mind and body through a unique blend of coaching and sound therapy. My approach is grounded in a Psychology degree and further enriched by extensive training in life coaching practices, including NLP, CBT, ICF and Timeline Therapy alongside advanced sound healing practices.
+                I’m a compassionate life coach and sound healing practitioner specializing in nurturing both mind and body through a unique blend of coaching and sound therapy. My approach is grounded in a degree in Psychology and further enriched by extensive training in life coaching practices, including NLP, CBT, ICF and Timeline Therapy alongside advanced sound healing practices.
                 </p>
                   <p className='pb-5'>
-                  I am dedicated to helping you quiet the inner critic, build confidence, and cultivate calm, clarity and confidence. Whether you’re looking to overcome self-doubt, reduce anxiety, or achieve inner peace, my holistic approach supports your personal growth every step of the way.
+                  I am here to help you quiet the inner critic, build confidence, and cultivate calm, clarity and confidence. Whether you’re looking to overcome self-doubt, reduce anxiety, or achieve inner peace, my holistic approach supports your personal growth every step of the way.
 
                 </p>
                 <p className='pb-5 text-center'>Are you ready to transform your life and embrace a new level of well-being? Get in touch to explore our comprehensive whole-body healing packages.  </p>

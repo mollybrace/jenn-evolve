@@ -1,20 +1,25 @@
 import React from 'react'
+import SessionCard from './SessionCard'
+
+let facts = [
+  "1:1", "Group"
+]
 
 const Booking = () => {
   return (
     <div>
-        <div className='pl-4'>
+        <div className='pl-4 m-12'>
             <p className='text-5xl pl-4'>Sessions</p>
-            <p className='pt-4'>
-                Book a 20 minute consultation to discuss what is keeping you stuck and how we can propel you forward together.
-            </p>
-            <p className='pt-4'>
-             Evolve Coaching Packages: One-to-one private online sessions over Zoom from anywhere in the world.
-            </p>
-            <p className='pt-4 pb-4'>
-            Evolve Coaching & Sound Healing Packages: In-person sessions at my home or yours in North West London, UK. Check out our booking page for further details.
 
-            </p>
+            <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-6'>
+     
+     {facts.map((fact) => (
+       <SessionCard fact={fact} />
+     ))}
+ 
+   </div>
+
+            
         </div>
     </div>
   )

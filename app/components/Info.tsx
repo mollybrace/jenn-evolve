@@ -10,7 +10,7 @@ const SoundHealing = () => {
             <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream  md:m-0 md:ml-2">
              <div className='image-container'>
                 <Image 
-                    src="/backgroundImage2.JPG"
+                    src="/backgroundImage2.jpg"
                     alt="profile photo"
                     width={300}
                     height={300} 
@@ -18,7 +18,7 @@ const SoundHealing = () => {
                 />
             </div>
             
-            <h2 className='font-bold text-4xl md:text-5xl'>Sound Healing</h2>
+            <h2 className='text-4xl md:text-5xl'>Sound Healing</h2>
             <p className='md:text-xl'>Your personal sanctuary for sound healing and therapy. Discover the transformative power of sound with expert-led meditation sessions and therapeutic sound baths that nurture your well-being and promote deep healing.
             </p>
             <a href="/soundhealing">
@@ -36,7 +36,7 @@ const SoundHealing = () => {
                     className='rounded-100'
                 />
             </div>
-            <h2 className='font-bold text-4xl md:text-5xl'>Life Coaching</h2>
+            <h2 className=' text-4xl md:text-5xl'>Life Coaching</h2>
             <p className='md:text-xl'>Begin your journey to personal growth and success with our professional life coaching. We empower you to overcome self-doubt, boost confidence, reduce anxiety, calm your mind, achieve inner peace, and embrace life with self-compassion. </p>
             <a href="/coaching">
                 <Button />

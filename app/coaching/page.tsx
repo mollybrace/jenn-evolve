@@ -29,9 +29,7 @@ const Coaching = () => {
       <Intro/>
     </section>
 
-    <section>
-      <Booking />
-    </section>
+   
     
     <section>
       <FAQs faqItems={faqItems}/>

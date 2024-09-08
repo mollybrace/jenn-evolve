@@ -10,16 +10,19 @@ const navLinks = [
     {label: "Present Day", href: "#present"},
   ]
   return (
-    <div className='w-full flex flex-col md:flex-row justify-around scroll-smooth'>
+    <div className='w-full ml-0  scroll-smooth pt-6 mx-12 '>
+      <div className='flex flex-col justify-around md:flex-row '>
         {navLinks.map(link => (
         <Link
-            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg border-khaki-cream text-center hover:bg-khaki-cream font-bold mb-4'
+            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg border-khaki-cream text-center hover:bg-khaki-cream font-bold mb-4 mx-12'
             href={link.href}
             key={link.href}>
                 {link.label}
         </Link>
 
         ))}
+
+      </div>
     </div>
    
   )

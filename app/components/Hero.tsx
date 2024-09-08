@@ -3,26 +3,18 @@ import React, { useEffect, useState } from 'react'
 import Nav from './Nav'
 import CCC from './CCC'
 import Nav2 from './Nav2'
+import Image from 'next/image'
 
 const Hero = () => {
 
   return (
-    <div className='h-screen w-screen'>
-        <Nav2 />
-    <div id="hero" className="bg-[url('/backgroundImage.jpg')] h-full w-full bg-no-repeat bg-center bg-cover absolute z-[-1] top-0">
+      <div id="hero" className='bg-[url(/heroImage.jpg)] flex flex-col h-[60vh] md:h-[80vh] bg-center w-screen bg-cover bg-no-repeat	pt-12 top-0'>
 
-        <div className='absolute bottom-[40px] left-7 text-4xl lg:text-7xl md:bottom-[400px] text-black md:left-16  bg-opacity-50'>Jenn.Evolve
+        <Nav2 />
+        <div className='absolute bottom-[350px] left-7 text-4xl md:text-5xl lg:text-7xl md:bottom-[1000px] lg:bottom-[800px] text-khaki-cream md:left-10  bg-opacity-50 pt-12'>Jenn.Evolve
         <CCC />
         </div>
-        <div>
-
         </div>
-
-        <div className='absolute bottom-[100px] left-7 text-xl md:text-5xl md:bottom-[45px] md:left-16 bg-slate-200 bg-opacity-50'>
-        </div>
-        </div>
-
-    </div>
   )
 }
 

@@ -60,4 +60,9 @@ body {
   padding: 4;
   margin: 4;
   cursor: pointer;
+
 }
+
+  .custom-list-image {
+    list-style-image: url('/public/hello.JPG');
+  }

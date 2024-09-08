@@ -27,11 +27,9 @@ const Intro = () => {
           <p className='pt-4'>
           On average, we have 6,000 thoughts a day, 80% of them negative and 95% of them repetitive. It’s easy to believe they are fact. Most people don’t choose to disprove their beliefs. In fact, they choose to do the opposite, reinforcing why their beliefs are true and creating a cycle of repeated thoughts, behaviours, experiences and emotions throughout our lives. The tunnel-vision which we have created for ourselves is the stubborn child that prevents us from taking new actions, thoughts, behaviours and keep us stuck, frustrated and unfulfilled.
         </p>
-
         <p className='pt-4'>
           Have you ever wondered why you keep getting yourself into the same sort of problems over and over again?
         </p>
-
         <p className='pt-4'>
           Your beliefs are working away in your unconscious mind and we often do not realise the patterns we are creating for ourselves. Our conscious mind makes up only 5% of the brain, while our subconscious mind makes up 95% of the brain. But what if it could all be different?      
         </p>
@@ -51,7 +49,7 @@ const Intro = () => {
        </div>
     </div>
 
-    <div className='pl-4'>
+    <div className='pl-4 m-12'>
       <div className='flex justify-center'>
     <p className='text-5xl pl-4 py-5 top-0'>Why invest in coaching?</p>
 
