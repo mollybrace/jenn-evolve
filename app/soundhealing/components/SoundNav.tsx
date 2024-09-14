@@ -4,7 +4,8 @@ import React from 'react'
 const SoundNav = () => {
 
 const navLinks = [
-    {label: "What is Sound Healing", href: "#mission"},
+    {label: "What is Sound Healing?", href: "#mission"},
+    {label: "Instruments", href: "#instruments"},
     {label: "Benefits", href: "#benefits"},
     {label: "Sessions", href: "#sessions"},
     {label: "FAQs", href: "#faq"},

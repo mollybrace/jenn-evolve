@@ -5,30 +5,29 @@ import WhatIsSoundHealing from './components/WhatIsSoundHealing'
 import SoundhealingCTA from './components/SoundhealingCTA'
 import FAQs from './components/FAQs'
 import ForMe from './components/ForMe'
-import Title from './components/Title'
-import CCC from '../components/CCC'
 import SoundNav from './components/SoundNav'
+import Instruments from './components/Instruments'
 
 
 const SoundHealing = () => {
 
   const benefits = [
+    "You want to rest, relax, and show yourself more self-compassion", 
     "You want to feel a deeper connection with your body", 
-    "You want to destress, rest and relax", 
-    "You want to heal your body at a cellular level", 
+    "You want to move stuck energy through your body and heal at a cellular level", 
     "You want to move stuck energy through your body", 
     "You have been feeling stuck in life", "You are looking for more clarity", 
-    "You want to find a community of like-minded people", 
-    "You want to show yourself more self-compassion", 
-    "You are searching for the perfect combination between body, mind and spirit"
+    "You’re seeking the perfect balance between body, mind, and spirit", 
+    "You want to experience a supportive community of like-minded people through our sound baths", 
 
   ]
 
   const faqItems = [
-    {question: "What is a group sound bath?", answer: "During a sound bath you’ll be immersed in the soothing sounds of Himalayan Singing Bowls and you’ll feel as if the sounds are washing over you (hence the name). <br> Group sound baths are usually an hour long (unless otherwise stated) and typically involve participants laying down on a yoga mat in savasana position. Although you may lay or sit in any position which feels comfortable and allows you to relax into the experience. Participants close their eyes and focus on their breath as they feel the vibrations created by sound. A sound practitioner facilitates the session using a combination of frequencies created by instruments, voice and music to prepare the nervous system to go into the parasympathetic nervous system state. This creates the environment for the body to go into its own natural healing, relieving stress and anxiety from the body."},
-    {question: "What should I bring to a sound bath session?", answer: "Please bring anything that will support you in relaxing. Some people like to bring extra pillows, an eye mask, mat or blankets to help them in bringing the most comfort to their session, however all the above will be provided upon arrival. Dress comfortably and avoid clothes with buttons down the front so that the bowls can be placed directly on your clothing (1:1 sound healing sessions only). Yoga attire is optional. Participants often feel thirsty after a sound bath session so feel free to bring water."},
-    {question: "Who should avoid sound healing?", answer: "<p>The following people should avoid 1:1 sound healing sessions: </p> <p>• Those who have a pacemaker <ol><li>• Those who have a history of epilepsy</li><li>• Those who have a serious heart condition</li><li>• Those who have a serious heart condition.</li>• Those with a severe mental health issue </ol></p> <br> <p> Please remember to seek advice from GP and health providers before attending group sound baths. <br><br>If you are pregnant or think you could be, then avoid 1:1 sound healing in the first trimester. After the first trimester, feel free to join group sound healing sessions where the bowls will not be placed directly on your body. <br><br>Please contact Jenn to let her know if you plan to attend group sound baths or 1:1 session.</p>"},
-    {question: "Other questions", answer: "For any other questions, please contact us via email/social media or WhatsApp which can be found here (link to bookings page with details)."},
+    {question: "How can I get the most out of my sound bath experience?", answer: "During a sound meditation, you’ll be immersed in the soothing sounds of Himalayan Singing Bowls and you’ll feel as if the sounds are washing over you (hence the name). To get the most out of the experience, get comfortable, close your eyes and focus on your breath, connect with your body to feel the vibrations created by sound. Enjoy the silence and learn to let go. Your body will do the rest!"},
+    {question: "What should I bring to a sound bath session?", answer: "Pillows, eye masks, yoga mats and blankets will all be provided at our home studio. However, please bring along any of your own comforts that will support you in relaxing. Dress comfortably for the session for example, yoga attire or loungewear. If you have booked a 1:1 sound massage or warm water therapy avoid clothing with buttons down the front so that the bowls can be placed directly on your clothing."},
+    {question: "How long will my sound healing session last?", answer: "For 1:1 sound healing, please allow 1 hour and 30-minutes for your session. This will include a 15 minute consultation before the session, 1 hour of sound healing, plus a 15 minute integration, silence and grounding at the end of your session.<br><br> For group sound baths, please allow 1 hour for the group sound bath meditation. Please arrive at the home studio 10 minutes early to allow time to slow down, connect with your body, and relax your mind."},
+    {question: "Should I avoid sound healing?", answer: "The following people should avoid 1:1 sound healing sessions:<br><br><ol><li> • Participants who have a pacemakers or other implanted medical devices that can be affected by sound or electromagnetic waves, for example: Deep Brain Stimulators (DBS), Implantable Cardioverter-defibrillators (ICDs) and Brain-computer interfaces (BCIs)</li><li>• Participants who have a serious heart condition</li><li>• Participants who have a history of epilepsy or seizures </li><li>• Participants with a severe mental health issue</li>•Participants with metal implants or fragments near the area being treated, as these can be affected by sound vibrations. </li><li>• Pregnant women, especially within the first trimester </li></ol><br>Individuals who fall within any of these categories, or if you have other health concerns, please seek advice from your GP or health provider before attending group sound baths."},
+    {question: "Other questions?", answer: "FFor any other questions, please contact Jenn via email/social media or WhatsApp."},
 ]
   return (
     <div> 
@@ -38,6 +37,10 @@ const SoundHealing = () => {
 
       <section>
         <WhatIsSoundHealing />
+      </section>
+
+      <section>
+        <Instruments />
       </section>
 
       <section>

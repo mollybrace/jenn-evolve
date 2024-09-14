@@ -5,9 +5,8 @@ const AboutNav = () => {
 
 const navLinks = [
     {label: "Mission & Values", href: "#mission"},
-    {label: "My Journey to Coaching", href: "#coaching"},
-    {label: " My Journey to Sound Healing", href: "#sound-healing"},
-    {label: "Present Day", href: "#present"},
+    {label: "My Story: From Self-Discovery to Coaching", href: "#coaching"},
+    {label: "My Story: The Power of Sound", href: "#sound-healing"}  
   ]
   return (
     <div className='w-full ml-0  scroll-smooth pt-6 mx-12 '>

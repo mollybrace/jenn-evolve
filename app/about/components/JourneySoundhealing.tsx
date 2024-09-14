@@ -6,7 +6,7 @@ const JourneySoundhealing = () => {
    <div>
       <div className='flex flex-col md:flex-row mx-8 bg-khaki-green rounded-xl py-6 mb-6'>
         <div className='lg:basis-4/6 md:basis-2/4 mx-8'>
-          <p className='font-bold pb-2 text-3xl py-6 pl-4'>MY JOURNEY INTO SOUND HEALING</p>
+          <p className='font-bold pb-2 text-3xl py-6 pl-4'>MY STORY: THE POWER OF SOUND</p>
          <div className='px-4'>
             <p className='pb-4'>
             After moving to Thailand, I first encountered sound healing in 2020. A friend invited me to a sound bath—an experience entirely new to me. During the session, the soothing sounds of various instruments transported me to a serene, peaceful place where I found silence. For someone who struggled with meditation due to a whirlwind of thoughts, this was a revelation.

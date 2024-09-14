@@ -13,6 +13,7 @@ const Nav2 = () => {
         {label: "About", href: "/about"},
         {label: "Sound Healing", href: "/soundhealing"},
         {label: "Coaching", href: "/coaching"},
+        {label: "Contact", href: "/contact"}
       ]
 
       

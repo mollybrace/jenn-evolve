@@ -3,9 +3,9 @@ import React from 'react'
 const Alternative = () => {
   return (
     <div>
-        <div>
-            <p className='text-3xl pl-6 md:text-5xl pt-6'>Alternatively</p>
-            <p className='text-2xl md:text-4xl md:pl-14 pl-10 pb-6'>Find me on socials!</p>
+        <div className='flex justify-center'>
+            <p className='text-5xl md:text-4xl md:pl-14 pl-10 pb-6'>@jenn.evolve
+            </p>
         </div>
 
         <div className='flex justify-around pb-6'>

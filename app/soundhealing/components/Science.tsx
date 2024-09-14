@@ -5,40 +5,42 @@ const Science = () => {
 
   const facts = [
     {fact: "Chakra Balancing",
-    type: "(1:1/couple)",
-    information: "8 Himalayan bowls will be used on, around and above the body, which have been specifically tuned to a chakra frequency. As Jenn plays the singing bowl, you will be calmed into a tranquil state while listening to the sounds and feeling the vibrations, the body will be brought back to harmonic balance and restoration.",
+    type: "(1:1)",
+    information: "7 Himalayan bowls, which have been specifically tuned to a chakra frequency, will be placed around and above the body. As the singing bowls are played, drift into a tranquil state focusing on the sounds and feeling the vibrations. The body will be brought back to harmonic balance and restoration. Choose this session, if you have been feeling out of balance and alignment recently.",
     message: "Hi! I would like to enquire about a Chakra Balancing session..."},
     {fact: "Brainwave entrainment",
-    type: "(1:1/couple)", 
-    information: "7 Himalayan bowls will be used to entrain the brainwaves to synchronize with the perfect resonance of the bowls. Brain entrainment is a great session for deep meditation, creative thinking and clarity.",
+    type: "(1:1)", 
+    information: "8 Himalayan bowls will be used to entrain the brainwaves to synchronise with the perfect resonance of the bowls. Choose this session for deep meditation, creative thinking and clarity.",
     message: "Hi! I would like to enquire about a brain wave entrainment session..."},
-    {fact: "Sound and Vibration Massage",
-    type: "(1:1)",
-     information: "Harmonizing cellular tissue, releasing tension, stress and anxiety through sound and vibration the sound and vibration massage will instill a deep relaxation.",
+    {fact: "Sound Massage",
+    type: "(1:1/couple)",
+     information: "Experience singing bowls placed on the body, harmonising cellular tissue, releasing tension, stress and anxiety through sound and vibration. Choose this session for deep relaxation.",
      message: "Hi! I would like to enquire about a sound and vibration massage..."},
     {fact: "Warm Water Therapy", 
     type: "(1:1)",
-    information: "If you find it more difficult to relax or if you have some physical pains in your body, this one is perfect for you! This is a restorative treatment designed to alleviate pain while promoting a deep relaxation and therapeutic benefits as the muscles relax and stress melts away.",
+    information: "A restorative treatment designed to relieve pain while promoting a deep relaxation and therapeutic benefits. As the muscles relax and stress melts away, you’ll experience a soothing escape from physical discomfort. Choose this session if you find it challenging to relax or if you are dealing with some physical pain in your body.",
     message: "Hi! I would like to enquire about a warm water therapy session..."},
     {fact: "Sound Bath Meditation", 
     type: "(1:1/couple/group)", 
-    information: "Sound healing can have profound effects on emotional well-being by helping to release stored emotions, reduce anxiety and depression, and promote a sense of inner peace and balance. Music therapy, in particular, has been used successfully to support individuals with mental health challenges.",
+    information: "Experience a guided meditation while lying in the shavasana yogic position, enhanced by a range of soothing instruments. This session aims to stimulate your theta brainwaves, helping you fall into a deep meditative state. Choose this option if you’re seeking blissful relaxation or want to share the experience with a community of like-minded people.",
     message: "Hi! I would like to enquire about a sound bath meditation session..."},
     {fact: "Chakra Awareness Meditation with Mantra, Mudra & Yantra",  
     type: "(1:1/couple/group)",
-    information: "Active chanting meditation session followed by a passive meditative state while listening to the enchanting sounds of Himalayan Singing Bowls, bells and chimes. Allowing the energy to flow freely throughout your body and build a strong connection between the body, mind and spirit.",
+    information: "Engage in an active chanting meditation session followed by a passive meditative state enhanced by the enchanting sounds of Himalayan Singing Bowls, bells and chimes. This practice allows the energy to flow freely throughout your body and supports a strong connection between the mind and body.",
     message: "Hi! I would like to enquire about a chakra awareness meditation session..."}
 
   ]
   return (
     <div id="sessions" className=" text-bistre relative">
      <div className='flex flex-col items-center '>
-      <h2 className="text-5xl md:text-5xl pt-4">Sessions</h2>
+      <h2 className="text-5xl md:text-5xl pt-4">SESSIONS</h2>
     </div>
     <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-6'>
      
       {facts.map((fact) => (
+        <a href={`https://wa.me/447522594981?text=${fact.message}`} target='_blank'>
         <SessionCard fact={fact} />
+        </a>
       ))}
   
     </div>
