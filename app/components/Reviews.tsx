@@ -82,7 +82,7 @@ const Reviews = () => {
     <div>
       <div className='flex flex-col  items-center text-center'>
       <h2 className='text-3xl md:text-5xl my-5'>What people are saying about me</h2>
-    <div className="px-6 m-6 border flex justify-center items-center text-center flex-col bg-khaki-cream rounded-lg md:h-[300px] lg:mx-20 lg:h-[250px] ">
+    <div className="px-6 m-6 border flex justify-center items-center text-center flex-col bg-khaki-cream rounded-lg h-min-h  lg:mx-20  ">
         <p className='md:text-xl pt-5'>{feedback[currentIndex].text}</p>
 
         <p className='text-lg pt-5 font-bold align-bottom '>{feedback[currentIndex].name}</p>

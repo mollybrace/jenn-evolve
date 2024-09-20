@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutJennEvolve from './components/AboutJennEvolve'
-import AboutMe from './components/AboutMe'
+import AboutJennEvolve from './components/Values'
+import AboutMe from './components/Coaching'
 import CallToAction from '../components/CallToAction'
 import JourneySoundhealing from './components/JourneySoundhealing'
 
@@ -14,6 +14,9 @@ const About = () => {
     <div className='scroll-smooth w-full h-full m-0 p-0'>
       <section>
         <AboutNav />
+      </section>
+      <section>
+        <Mission />
       </section>
       <section>
         <AboutJennEvolve />

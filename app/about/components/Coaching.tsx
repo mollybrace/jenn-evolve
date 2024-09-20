@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const AboutMe = () => {
+const Coaching = () => {
   return (
     <div className='flex flex-col md:flex-row-reverse pt-10 border  mx-12 rounded-xl bg-khaki-beige my-10'>
         <div className='lg:basis-4/6 md:basis-2/4  mx-8'>
@@ -40,8 +40,8 @@ const AboutMe = () => {
         <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center pb-6'>
         <Image 
           src="/coachingImage2.jpg"
-            width={500}
-            height={500}
+            width={350}
+            height={350}
             alt="jenny"
             className='rotate-2 rounded-lg'
             />
@@ -50,4 +50,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default Coaching

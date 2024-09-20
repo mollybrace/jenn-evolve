@@ -6,8 +6,7 @@ const SoundhealingCTA = () => {
     <div className='absolute inset-0 bg-black opacity-45'></div>
     <div className='absolute inset-0 flex flex-col justify-center items-center text-center text-white'>
     <div className=" border-white justify-center text-khaki-beige md:text-5xl text-4xl pb-5">Relax and unwind with to the beautiful sound of Himalayan Singing bowls </div>
-    <div className='text-md md:text-xl'>Private and group sessions available
-    </div>
+      <div className='text-md md:text-xl'>Private and group sessions available</div>
     <a href='/contact'>
 
     <button className='mt-10 p-4 m-4 rounded-lg bg-khaki-cream border text-md text-bistre hover:bg-carmine hover:text-khaki-cream font-bold md:text-lg'>Book Here</button>
