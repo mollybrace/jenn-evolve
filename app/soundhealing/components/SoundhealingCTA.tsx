@@ -5,7 +5,7 @@ const SoundhealingCTA = () => {
     <div className="bg-[url('/soundhealing.JPG')] h-[500px] w-full bg-no-repeat bg-center bg-cover relative">
     <div className='absolute inset-0 bg-black opacity-45'></div>
     <div className='absolute inset-0 flex flex-col justify-center items-center text-center text-white'>
-    <div className=" border-white justify-center text-khaki-beige md:text-5xl text-4xl pb-5">Relax and unwind with to the beautiful sound of Himalayan Singing bowls </div>
+    <div className=" border-white justify-center text-khaki-beige md:text-5xl text-3xl mx-6 lg:mx-12 pb-5">Relax and unwind with to the beautiful sound of Himalayan Singing bowls </div>
       <div className='text-md md:text-xl'>Private and group sessions available</div>
     <a href='/contact'>
 

@@ -41,9 +41,8 @@ const ContactForm = () => {
     
     <div>
         <div>
-            <p className='md:text-5xl text-3xl pl-6 pt-6'>
-            Have a question?</p>
-            <p className=' text-2xl md:text-4xl pl-10 md:pl-14 pb-6'>Get in touch!</p>
+            <p className='md:text-5xl text-3xl pl-6 py-6'>
+            Get in touch</p>
         </div>
 
        

@@ -35,7 +35,8 @@ const Science = () => {
      <div className='flex flex-col items-center '>
       <h2 className="text-5xl md:text-5xl pt-4">SESSIONS</h2>
     </div>
-    <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-6'>
+    <div className='flex justify-center'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-6'>
      
       {facts.map((fact) => (
         <a href={`https://wa.me/447522594981?text=${fact.message}`} target='_blank'>
@@ -43,6 +44,8 @@ const Science = () => {
         </a>
       ))}
   
+    </div>
+
     </div>
 
       </div>

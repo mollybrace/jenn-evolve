@@ -3,8 +3,8 @@ import React from 'react'
 
 const Values = () => {
   return (
-   <div className='mx-20'>
-        <div className='flex flex-col pb-12'> 
+   <div className='w-full'>
+        <div className='flex flex-col pb-12 mx-6 md:mx-20'> 
             <p className='font-bold pb-2 text-3xl py-8'>VALUES</p>
            
            <ul className=''>
@@ -18,7 +18,7 @@ const Values = () => {
                     className='m-4 rounded-full flex items-center justify-center h-14 w-14  object-cover text-white z-20'/>
                     </div>
             <li className='pt-4'>
-            <span className='font-bold'>Empowerment:</span>I empower people of all ages to take control of their lives, make new choices, and embrace fresh thoughts and emotions. Through coaching and sound healing, I help you shift your mindset and build confidence.
+            <span className='font-bold'>Empowerment: </span>I empower people of all ages to take control of their lives, make new choices, and embrace fresh thoughts and emotions. Through coaching and sound healing, I help you shift your mindset and build confidence.
             </li>
             <div className=' rounded-lg flex justify-center w-full'>
                     <Image 

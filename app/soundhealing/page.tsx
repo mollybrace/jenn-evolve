@@ -11,17 +11,6 @@ import Instruments from './components/Instruments'
 
 const SoundHealing = () => {
 
-  const benefits = [
-    "You want to rest, relax, and show yourself more self-compassion", 
-    "You want to feel a deeper connection with your body", 
-    "You want to move stuck energy through your body and heal at a cellular level", 
-    "You want to move stuck energy through your body", 
-    "You have been feeling stuck in life", "You are looking for more clarity", 
-    "You’re seeking the perfect balance between body, mind, and spirit", 
-    "You want to experience a supportive community of like-minded people through our sound baths", 
-
-  ]
-
   const faqItems = [
     {question: "How can I get the most out of my sound bath experience?", answer: "During a sound meditation, you’ll be immersed in the soothing sounds of Himalayan Singing Bowls and you’ll feel as if the sounds are washing over you (hence the name). To get the most out of the experience, get comfortable, close your eyes and focus on your breath, connect with your body to feel the vibrations created by sound. Enjoy the silence and learn to let go. Your body will do the rest!"},
     {question: "What should I bring to a sound bath session?", answer: "Pillows, eye masks, yoga mats and blankets will all be provided at our home studio. However, please bring along any of your own comforts that will support you in relaxing. Dress comfortably for the session for example, yoga attire or loungewear. If you have booked a 1:1 sound massage or warm water therapy avoid clothing with buttons down the front so that the bowls can be placed directly on your clothing."},
@@ -29,6 +18,9 @@ const SoundHealing = () => {
     {question: "Should I avoid sound healing?", answer: "The following people should avoid 1:1 sound healing sessions:<br><br><ol><li> • Participants who have a pacemakers or other implanted medical devices that can be affected by sound or electromagnetic waves, for example: Deep Brain Stimulators (DBS), Implantable Cardioverter-defibrillators (ICDs) and Brain-computer interfaces (BCIs)</li><li>• Participants who have a serious heart condition</li><li>• Participants who have a history of epilepsy or seizures </li><li>• Participants with a severe mental health issue</li>•Participants with metal implants or fragments near the area being treated, as these can be affected by sound vibrations. </li><li>• Pregnant women, especially within the first trimester </li></ol><br>Individuals who fall within any of these categories, or if you have other health concerns, please seek advice from your GP or health provider before attending group sound baths."},
     {question: "Other questions?", answer: "FFor any other questions, please contact Jenn via email/social media or WhatsApp."},
 ]
+
+
+
   return (
     <div> 
       <section>
@@ -44,7 +36,7 @@ const SoundHealing = () => {
       </section>
 
       <section>
-        <ForMe benefits={benefits} />
+        <ForMe />
       </section>
     
 

@@ -18,7 +18,7 @@ const SoundHealing = () => {
                 />
             </div>
             
-            <h2 className='text-4xl md:text-5xl'>Sound Healing</h2>
+            <h2 className='text-4xl md:text-4xl'>Sound Healing</h2>
             <p className='md:text-xl'>Your personal sanctuary for sound healing and therapy. Discover the transformative power of sound with expert-led meditation sessions and therapeutic sound baths that nurture your well-being and promote deep healing.
             </p>
             <a href="/soundhealing">
@@ -36,7 +36,7 @@ const SoundHealing = () => {
                     className='rounded-100'
                 />
             </div>
-            <h2 className=' text-4xl md:text-5xl'>Life Coaching</h2>
+            <h2 className=' text-4xl md:text-4xl'>Life Coaching</h2>
             <p className='md:text-xl'>Begin your journey to personal growth and success with our professional life coaching. We empower you to overcome self-doubt, boost confidence, reduce anxiety, calm your mind, achieve inner peace, and embrace life with self-compassion. </p>
             <a href="/coaching">
                 <Button />

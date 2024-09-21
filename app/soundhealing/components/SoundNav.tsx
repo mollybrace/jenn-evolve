@@ -15,7 +15,7 @@ const navLinks = [
     <div className='flex flex-col justify-around md:flex-row '>
         {navLinks.map(link => (
         <Link
-            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg border-khaki-cream text-center hover:bg-khaki-cream font-bold mb-4 mx-12'
+            className='border-2 p-2 shadow-lg border-spacing-2 rounded-lg h-min border-khaki-cream text-center  hover:bg-khaki-cream font-bold mb-4 mx-12'
             href={link.href}
             key={link.href}>
                 {link.label}

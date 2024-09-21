@@ -4,7 +4,7 @@ import React from 'react'
 export const Mission = () => {
   return (
     <div>
-       <div id="mission" className='flex flex-col md:flex-row mx-20 pt-6 '>
+       <div id="mission" className='flex flex-col md:flex-row mx-6 md:mx-20 pt-6 '>
           <div className='lg:basis-4/6 md:basis-2/4'>
              <p className='font-bold pb-6 text-3xl py-6'>MISSION</p>
             <p className='pb-4'>
