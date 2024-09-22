@@ -2,17 +2,13 @@ import React from 'react'
 import FAQs from '../soundhealing/components/FAQs'
 import Intro from './components/Intro'
 import CoachingCTA from './components/coachingCTA'
-import Nav from '../components/Nav'
 import Sessions from './components/Sessions'
+import CoachingNav from './components/coachingNav'
+import CoachingBenefits from './components/CoachingBenefits'
 
 
 const Coaching = () => {
 
-  const benefits = [
-    "Positive Mindset Coaching including: Challenging negative and/or anxious thoughts and triggers, exploring personal values",
-    " Cognitive Behavioural Therapy.",
-    "Neuro-Linguistic Programming", "Time Line Therapy & Hypnotism"
-  ]
   
   const faqItems = [
     {question: "How do I know if life coaching is right for me?", answer: "Life coaching is for anyone who is open and ready to make positive changes in their life. It is also for individuals who are feeling stuck, or unfulfilled with any aspect of their life or who are experiencing stress or anxiety. Life coaching is for you if you are someone who values personal growth, development and empowerment. If you want to attract more confidence, clarity and greater compassion for themselves and others . Whether you're dealing with limiting beliefs, lack of direction, or want to achieve a specific goal, life coaching is an invaluable investment."},
@@ -25,7 +21,7 @@ const Coaching = () => {
   return (
     <div>
       <section>
-        <Nav />
+        <CoachingNav />
       </section>
 
 
@@ -33,6 +29,10 @@ const Coaching = () => {
       <Intro/>
     </section>
 
+    <section>
+      <CoachingBenefits />
+    </section>
+    
     <section>
       <Sessions />
     </section>

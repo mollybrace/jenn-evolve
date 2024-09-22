@@ -4,10 +4,10 @@ import React from 'react'
 const JourneySoundhealing = () => {
   return (
    <div>
-      <div id="sound-healing" className='flex flex-col md:flex-row mx-8 bg-khaki-green rounded-xl py-6 mb-6'>
+      <div id="sound-healing" className='flex flex-col md:flex-row mx-6 md:mx-20 bg-khaki-green rounded-xl py-6 mb-6'>
         <div className='lg:basis-4/6 md:basis-2/4 mx-8'>
           <p className='font-bold pb-2 text-3xl py-6'>MY STORY: THE POWER OF SOUND</p>
-         <div className='px-4'>
+         <div className=''>
             <p className='pb-4'>
             After moving to Thailand, I first encountered sound healing in 2020. A friend invited me to a sound bath—an experience entirely new to me. During the session, the soothing sounds of various instruments transported me to a serene, peaceful place where I found silence. For someone who struggled with meditation due to a whirlwind of thoughts, this was a revelation.
  
@@ -35,8 +35,8 @@ const JourneySoundhealing = () => {
         <div className='md:basis-2/4 lg:basis-2/6 flex justify-center items-center'>
         <Image 
           src="/healingImage2.jpg"
-            width={350}
-            height={350}
+            width={300}
+            height={300}
             alt="jenny"
             className='rounded-lg rotate-3'
             />

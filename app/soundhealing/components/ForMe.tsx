@@ -24,7 +24,7 @@ const ForMe = ( ) => {
       
   return (
     <div id="benefits" className='md:mx-14 mx-8'>
-        <p className='text-5xl py-6'>SOUND HEALING IS RIGHT FOR YOU IF...</p>
+        <p className='text-3xl md:text-5xl py-6'>SOUND HEALING IS RIGHT FOR YOU IF...</p>
         <div className='flex justify-center items-center flex-col'>
         <div className='flex flex-col justify-center px-2 m-4'>
         {benefits.map((benefit, i) => (

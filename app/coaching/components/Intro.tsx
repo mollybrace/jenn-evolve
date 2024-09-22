@@ -3,10 +3,10 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='m-8'>
-    <div className='text-5xl pb-4 mx-8'>What is life coaching?</div>
-    <div className='  pl-6 flex flex-col justify-center items-center lg:flex-row'>
-      <div className='pl-3 basis-1/2'>
+    <div className='mx-6 md:mx-12'>
+    <div className='text-5xl pt-6 md:text-5xl pb-4 lg:pb-0'>What is life coaching?</div>
+    <div className='flex flex-col justify-center items-center lg:flex-row'>
+      <div className='basis-1/2'>
       
 
       <div>
@@ -52,12 +52,12 @@ const Intro = () => {
        </div>
     </div>
 
-    <div className='m-12'>
+    <div id="why" className=''>
       <div className='flex justify-center'>
-    <p className='text-5xl  py-5 top-0'>Why invest in coaching?</p>
+    <p className='text-5xl md:text-5xl py-5'>Why invest in coaching?</p>
       </div>
       <div className='flex justify-center text-center'>
-        <p className='font-bold'>
+        <p className='font-bold pt-6'>
           “Whether you think you can or you think you can’t, you’re right” - <span className='italic font-normal text-gray-400'>Henry Ford.</span></p>
 
       </div>

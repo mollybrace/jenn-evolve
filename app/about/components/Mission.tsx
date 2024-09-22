@@ -18,7 +18,7 @@ export const Mission = () => {
                  width={400}
                  height={400}
                  alt="jenny"
-                 className='rotate-12 rounded-lg z-10'
+                 className='rotate-12 rounded-lg z-10 h-[]'
             />
 
 

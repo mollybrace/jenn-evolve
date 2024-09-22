@@ -10,11 +10,11 @@ const SoundHealing = () => {
             <div className="flex flex-col   items-center p-6 m-6 space-y-6 rounded-lg md:w-1/2 bg-khaki-cream  md:m-0 md:ml-2">
              <div className='image-container'>
                 <Image 
-                    src="/backgroundImage2.jpg"
+                    src="/bowls.jpg"
                     alt="profile photo"
                     width={300}
                     height={300} 
-                    className='rounded-100'
+                    className='rounded-100 object-left-bottom'
                 />
             </div>
             
