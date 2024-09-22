@@ -4,8 +4,8 @@ import "./globals.css";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import { Montserrat } from "next/font/google";
-import Nav from "./components/Nav";
-import Nav2 from "./components/Nav2";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -35,7 +35,10 @@ export default function RootLayout({
         <Hero />
           <main className="overflow-hidden">
             {children}
+            <Analytics />
+            <SpeedInsights />
           </main>
+          
         <Footer />
       </body>
       </div>

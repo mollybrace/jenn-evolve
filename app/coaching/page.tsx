@@ -3,7 +3,7 @@ import FAQs from '../soundhealing/components/FAQs'
 import Intro from './components/Intro'
 import CoachingCTA from './components/coachingCTA'
 import Sessions from './components/Sessions'
-import CoachingNav from './components/coachingNav'
+import CoachingNav from "./components/CoachingNav"
 import CoachingBenefits from './components/CoachingBenefits'
 
 
