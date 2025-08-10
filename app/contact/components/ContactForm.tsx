@@ -13,7 +13,7 @@ import emailjs from "@emailjs/browser"
 const ContactForm = () => {
     const form = useRef<HTMLFormElement | null>(null);
     
-    const [fullname, setFullname] = useState("");
+    const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [submissionStatus, setSubmissionStatus] = useState("")
@@ -25,7 +25,7 @@ const ContactForm = () => {
         emailjs.sendForm("service_6wfnqk6", "template_c081vtn", form.current, 'fVj8ydZe__X-cKeGe').then((response) => {
           console.log(response.text);
           setEmail("")
-          setFullname("")
+          setName("")
           setMessage("")
           setSubmissionStatus("success")
     
@@ -56,12 +56,12 @@ const ContactForm = () => {
           <input 
             placeholder='Full Name...'
             type='text'
-            id="fullname"
-            value={fullname}
-            name="fullname"
+            id="name"
+            value={name}
+            name="name"
             className='mt-10 input input-lg input-bordered md:w-full max-w-lg shadow-lg mb-5 rounded-xl p-4 '
             required
-            onChange={(event) => setFullname(event.target.value)}
+            onChange={(event) => setName(event.target.value)}
             />
 
 
