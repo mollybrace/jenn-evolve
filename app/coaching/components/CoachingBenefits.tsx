@@ -23,7 +23,7 @@ const CoachingBenefits = () => {
   return (
     <div id="benefits" className='md:mx-14 mx-6'>
         <p className='text-5xl md:text-5xl pt-6'>Benefits</p>
-        <p className='py-6'>Evolve Coaching provides the tools to help you shift your mindset and take control of your life. Through our coaching, you will:</p>
+        <p className='py-6'>Coaching with Jenn at Evolve Coaching & Sound Healing provides the tools to help you shift your mindset and take control of your life. Through our coaching, you will:</p>
         <div className='flex justify-center items-center flex-col'>
         <div className='flex flex-col justify-center px-2 m-4'>
         {benefits.map((benefit, i) => (
@@ -37,7 +37,7 @@ const CoachingBenefits = () => {
         </div>
         </div>
         <div className='mx-6'>
-        <p className='py-6'>With Jenn.Evolve Coaching, we use a blend of powerful techniques to facilitate change, including:</p>
+        <p className='py-6'>We will use a blend of powerful techniques to facilitate change, including:</p>
         <li>Cognitive Behavioural Therapy (CBT)</li>
         <li>Neuro-Linguistic Programming (NLP)</li>
         <li>Time Line Therapy</li>

@@ -1,20 +1,9 @@
 "use client"
-import React, { useRef } from 'react'
-import { useState } from 'react'
-import emailjs from "@emailjs/browser"
-
-type Formprops = {
-    email: string;
-    message: string;
-    fullname: string;
-    response: string;
-    contact_form: string;
-
-
-  }
+import React, { useRef } from 'react';
+import { useState } from 'react';
+import emailjs from "@emailjs/browser";
   
 
-  
   const Form = () => {
 
     const form = useRef(null)
@@ -24,11 +13,30 @@ type Formprops = {
     const [message, setMessage] = useState("");
     const [submissionStatus, setSubmissionStatus] = useState("")
     
-   const handleSubmit =  (e: React.FormEvent<HTMLFormElement>) => {
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_6wfnqk6', 'template_c081vtn', form.current, {
+          publicKey: 'fVj8ydZe__X',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+  
+
+   const handleSubmit =  (e) => {
     e.preventDefault();
 
     if (form.current) {
-    emailjs.sendForm("service_sa68flb", "template_uriwvbb", form.current, 'NXMUCg8dkjdu3Rpe_').then((response) => {
+      emailjs.sendForm("service_6wfnqk6", "template_c081vtn", form.current, 'fVj8ydZe__X-cKeGe').then((response) => {
       console.log(response.text);
       setEmail("")
       setFullname("")
@@ -50,17 +58,13 @@ type Formprops = {
        <form 
         className='pl-5 pr-5 justify-center flex flex-col items-center' 
         ref={form}
-        onSubmit={handleSubmit}
+        onSubmit={sendEmail}
         >
           <div>
 
-          <label 
-            htmlFor="fullname"
+          <label htmlFor="fullname"
             className='p-5 flex justify-center items-center font-bold'
-
-            >
-              Full Name
-          </label>
+            >Full Name</label>
           
           
           <input 
@@ -111,7 +115,7 @@ type Formprops = {
         <br></br>
           <button 
           type='submit'
-          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-dogwood text-white font-bold py-2 px-4 rounded shadow pb-4'
+          className='bg-moonstone-beige m-2 border p-4 text-white transition-all hover:bg-dogwood font-bold py-2 px-4 rounded shadow pb-4'
           >
             Submit
           </button>

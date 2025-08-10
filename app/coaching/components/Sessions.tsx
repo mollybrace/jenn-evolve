@@ -6,27 +6,27 @@ const Sessions = () => {
         {fact: "Clarity",
         type: "1 hour of coaching",
         information: "Gain quick, actionable insights to overcome obstacles and move forward with confidence.",
-        message: "Hi! I would like to enquire about a Chakra Balancing session..."},
+        message: "Hi! I would like to enquire about the Clarity package..."},
         {fact: "Growth",
         type: "6 hours of coaching", 
         information: "Break through limiting beliefs and take steps towards positive change and transformation.",
-        message: "Hi! I would like to enquire about a brain wave entrainment session..."},
+        message: "Hi! I would like to enquire about the Growth package..."},
         {fact: "Evolve",
         type: "20 hours of coaching",
          information: "Long-term support for deep transformation, clarity and personal growth",
-         message: "Hi! I would like to enquire about a sound and vibration massage..."},
+         message: "Hi! I would like to enquire about the Evolve package..."},
         {fact: "Clarity & Sound", 
         type: "",
         information: "1 hour of coaching & 1 hour of Sound Healing.",
-        message: "Hi! I would like to enquire about a warm water therapy session..."},
+        message: "Hi! I would like to enquire about the Clarity and Sound package..."},
         {fact: "Growth & Sound", 
         type: "", 
         information: "6 hours of coaching & 6 hours of Sound Healing",
-        message: "Hi! I would like to enquire about a sound bath meditation session..."},
+        message: "Hi! I would like to enquire about the Growth and Sound package..."},
         {fact: "Evolve & Sound",  
         type: "",
         information: "20 hours of coaching & 20 hours of Sound Healing",
-        message: "Hi! I would like to enquire about a chakra awareness meditation session..."}
+        message: "Hi! I would like to enquire about the Evolve and Sound package..."}
     
       ]
   return (
@@ -48,7 +48,7 @@ const Sessions = () => {
    </div>
 
    <div className='m-8'>
-        <p className='pb-4'>At Jenn.Evolve, two types of coaching sessions are offered:
+        <p className='pb-4'>At Evolve Caoching, two types of coaching sessions are offered:
         </p>
         <div>
 

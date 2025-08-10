@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Pacifico } from "next/font/google";
 import "./globals.css";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
@@ -16,7 +16,6 @@ const montserrat = Montserrat({
   style: ['normal', 'italic'],
   variable: '--font-'
  })
-
 
 export const metadata: Metadata = {
   title: "Jenn Evolve Sound Healing and Lifecoaching",

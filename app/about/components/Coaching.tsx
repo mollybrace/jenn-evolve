@@ -9,27 +9,36 @@ const Coaching = () => {
           </p>
           <div className=' pb-6'>
           <p className='pb-4 pt-4 font-bold underline text-xl'>
-            Calm. Clarity. Confidence.
+            Calm. Clarity. Connectedness.
           </p>
           <p className='pb-4'>
-          This is how coaching has transformed my inner world.
+          These three words capture how coaching has transformed my inner world. But it wasn’t always like this.
           </p>
          
           <p className='pb-4'>
-          But it wasn’t always this way.
+          Like many of us, I struggled with anxiety, self-criticism, comparison, and self-sabotage, which impacted my daily life. I often felt like I was just ticking the boxes, counting down the days until my next form of escapism.
           </p>
           <p className='pb-4'>
-          In my teens and 20s, my mind was a minefield. As a Primary Teacher since 2012, I was an A* perfectionist. I loved my job and I would spend hours of my own time working beyond expectations and suppressing negative emotions. My life was a cycle of anxiety, self-criticism, and self-sabotage.
+         In 2019, I realised something had to change. After seven years of teaching in UK primary schools, I was ready for a new adventure. So, I booked a one-way flight to Thailand, determined to fulfil my dream and teach overseas.
+
           </p>
 
-          <p className='pb-4'>After 7 years of teaching, and repeating the same patterns in my personal life, I decided to teach abroad in an International School in Thailand, hoping for a change. Then COVID-19 hit in 2020. Stuck indoors, I sought a distraction from my chaotic mind and discovered life coaching through my Thai teacher, who offered me a free taster session.</p>
-
-          <p className='pb-4'>Five years later, coaching has opened up, sorted out and decluttered my mind. Now, when I am going through personal challenges, I know how to respond in healthy ways, reframe negative thought-patterns and take control of my mind. </p>
-          <p className='pb-4'>Coaching has helped me live compassionately, mindfully, and authentically. The constant negative buzz in my mind is now quiet and I can choose what I want to focus on - instead of my mind ruling my body, my body rules my mind.
-          </p>
-          <p className='pb-4'>Now, I am calm, I have mental clarity and I feel confident. This is how coaching can transform your inner world, too.
+          <p className='pb-4'>The first few months in Thailand were incredible. I couldn’t have been happier. But soon, the familiar patterns followed me across the other side of the world, and those nagging thoughts and feelings began to creep back in.
 </p>
-          <p className='pb-4'>If you are ready to evolve and cultivate calm, clarity and confidence, book your <span className='font-bold'>FREE</span> taster session using the <span className="underline"><a href="/contact">contact form</a></span>, send me an <span className="underline"><a href="mailto:jenn.evolve333@gmail.com">email</a></span> or DM me via <span className="underline"><a href='https://www.instagram.com/jenn.evolve/?hl=en' target="_blank" >social media</a></span>.
+
+          <p className='pb-4'>Then, in February 2020, the pandemic hit. Stuck indoors, I searched for a distraction from the noise of my mind. That’s when I discovered life coaching.
+ </p>
+          <p className='pb-4'>Now, five years later, coaching has completely transformed my life. The personal growth I've experienced during this time has exceeded anything I ever learned in school or university. The range of experiences I have had has been broader than I ever imagined, and I’ve gained control over my negative thought patterns, ultimately changing my life for the better.
+          </p>
+          <p className='pb-4'>
+            My commitment to life coaching sessions has heightened my self-awareness, highlighted my unconscious patterns, limiting beliefs and my most aligned values. As a result, I have developed a deeper connection with myself, resulting in greater peacefulness and clarity regarding the outcomes I want to achieve and positively impacting all the relationships around me.
+
+          </p>
+          <p className='pb-4'>
+            This is the power of coaching—it can transform your inner world, too.
+
+          </p>
+          <p className='pb-4'>If you are ready to EVOLVE and cultivate your own inner calm, clarity and confidence, book your <span className='font-bold'>FREE</span> 30-minute consultation using the <span className="underline"><a href="/contact">contact form</a></span>, send me an <span className="underline"><a href="mailto:jenn.evolve333@gmail.com">email</a></span> or DM me via <span className="underline"><a href='https://www.instagram.com/jenn.evolve/?hl=en' target="_blank" >social media</a></span>.
           </p>
         
 

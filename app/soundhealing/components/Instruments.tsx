@@ -5,7 +5,7 @@ const Instruments = () => {
     <div id="instruments" className='m-8 md:m-14' >
          <p className='text-3xl md:text-5xl py-5'>INSTRUMENTS</p>
         <p>
-            Every sound healing practitioner brings their own approach to the practice. At Jenn.Evolve, we have carefully selected an array of instruments, including Himalayan Singing Bowls, tingsha bells, koshi chimes and high frequency bowls to craft a unique sound journey. Our intention is to guide you into a blissful meditative state where you can quiet your mind, connect deeply with your body, and experience a profound sense of calm.
+            Every sound healing practitioner brings their own approach to the practice. At Evolve Sound Healing, we have carefully selected an array of instruments, including Himalayan Singing Bowls, tingsha bells, koshi chimes and high frequency bowls to craft a unique sound journey. Our intention is to guide you into a blissful meditative state where you can quiet your mind, connect deeply with your body, and experience a profound sense of calm.
     </p>
 
     <p className='text-xl md:text-2xl py-5'>THE POWER AND MAGIC OF SINGING BOWLS</p>
